@@ -11,6 +11,8 @@ import pageobject_model.page.HomePage;
 public class MailruTest {
 
     WebDriver driver;
+    private static final String LOGIN = "2004nbg";
+    private static final String PASSWORD = "M10082019!";
 
     @BeforeMethod(alwaysRun = true)
     public void brovserSetup() {
@@ -22,10 +24,10 @@ public class MailruTest {
     public void logInMailru() throws InterruptedException {
 
         boolean realResult = new HomePage(driver)
-                .mailruOpen()
-                .mailruLogin("2004nbg", " ")
+                .openPage()
+                .mailruLogin(LOGIN, PASSWORD)
                 .checkForLogin();
-        Assert.assertTrue(realResult, "is not login!");
+        Assert.assertTrue(realResult, "You didn't enter in the MailBox!");
     }
 
     @AfterMethod(alwaysRun = true)
