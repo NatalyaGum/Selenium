@@ -20,7 +20,7 @@ public class MailruTest {
         driver.manage().window().maximize();
     }
 
-    @Test
+    @Test (groups= "main_test")
     public void logInMailru() throws InterruptedException {
 
         boolean realResult = new HomePage(driver)

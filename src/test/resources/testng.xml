@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite" parallel="tests" thread-count="10">
+    <test  name="Calc">
+        <groups>
+            <run>
+                <include name="main_test"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="pageobject_model.page.HomePage"></class>
+            <class name="pageobject_model.page.MailBoxPage"></class>
+            <class name="pageobject_model.test.MailruTest"></class>
+        </classes>
+    </test>
+</suite>
