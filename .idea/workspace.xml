@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ca2cc7-4689-4dda-8276-0422522adef2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WebDriverSeleniumHQTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
+    <list default="true" id="f1ca2cc7-4689-4dda-8276-0422522adef2" name="Changes" comment="29/10">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/page/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/page/MailBoxPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/test/MailruTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "last_opened_file_path": "C:/data/projects/hellowebdriver/hellowebdriver",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -64,11 +58,42 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\data\projects\hellowebdriver\hellowebdriver\.idea" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pageobject_model.test" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.WebDriverSeleniumHQTest">
-    <configuration name="WebDriverSeleniumHQTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WebDriverSeleniumHQTest" />
+  <component name="RunManager" selected="TestNG.HomePage">
+    <configuration name="HomePage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hellowebdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pageobject_model.page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pageobject_model.page" />
+      <option name="MAIN_CLASS_NAME" value="pageobject_model.page.HomePage" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePage.mailruTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hellowebdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pageobject_model.page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pageobject_model.page" />
+      <option name="MAIN_CLASS_NAME" value="pageobject_model.page.HomePage" />
+      <option name="METHOD_NAME" value="mailruTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,10 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomePage" />
+        <item itemvalue="TestNG.HomePage.mailruTest" />
         <item itemvalue="TestNG.WebDriverSeleniumHQTest" />
         <item itemvalue="TestNG.test.test123" />
         <item itemvalue="TestNG.WebDriverSeleniumHQTest.mailruTest" />
-        <item itemvalue="Application.WebDriverSeleniumHQTest" />
       </list>
     </recent_temporary>
   </component>
@@ -126,6 +152,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666727131219</updated>
     </task>
+    <task id="LOCAL-00001" summary="29/10">
+      <created>1667061802012</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667061802012</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,5 +175,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="29/10" />
+    <option name="LAST_COMMIT_MESSAGE" value="29/10" />
   </component>
 </project>
