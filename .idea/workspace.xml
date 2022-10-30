@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ca2cc7-4689-4dda-8276-0422522adef2" name="Changes" comment="First Assert">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+    <list default="true" id="f1ca2cc7-4689-4dda-8276-0422522adef2" name="Changes" comment="added xml file">
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/page/HomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667158589128</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added xml file">
+      <created>1667159011384</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667159011384</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,6 +230,7 @@
     <MESSAGE value="30/10 19-30" />
     <MESSAGE value="30/10 21-30" />
     <MESSAGE value="First Assert" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Assert" />
+    <MESSAGE value="added xml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added xml file" />
   </component>
 </project>

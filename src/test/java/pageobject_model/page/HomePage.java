@@ -30,7 +30,7 @@ public class HomePage extends AbstractPage {
     @Override
     public HomePage openPage() {
         driver.get(HOMEPAGE_URL);
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(WAIT_TIMEOUT_SECONDS));
         return this;
     }
 
