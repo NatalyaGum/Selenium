@@ -9,27 +9,36 @@ import org.testng.annotations.Test;
 import pageobject_model.page.HomePage;
 import pageobject_model.page.MailBoxPage;
 
+import javax.swing.*;
 
-public class MailruTest {
+public class CreatingMailTest {
 
     WebDriver driver;
+
+    MailBoxPage page;
     private static final String LOGIN = "2004nbg";
     private static final String PASSWORD = "";
 
+    private static final String EMAIL = "2004nbg@mail.ru";
+
     @BeforeMethod(alwaysRun = true)
-    public void browserSetup() {
+    public void browserSetup() throws InterruptedException {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
+        page=new HomePage(driver)
+                .openPage()
+                .mailruLogin(LOGIN, PASSWORD);
     }
 
-    @Test (groups = "main_test")
-    public void logInMailruTest() throws InterruptedException {
+    @Test (groups= "mail_create_test")
+    public void createMailTest() throws InterruptedException {
 
-        boolean realResult = new HomePage(driver)
-                .openPage()
-                .mailruLogin(LOGIN, PASSWORD)
-                .checkForLogin();
-        Assert.assertTrue(realResult, "You didn't enter in the MailBox!");
+        boolean realResult=page.writeLetter()
+                .mailCreate(EMAIL)
+                .mailSave()
+                .openDraftPage()
+                .checkMail(EMAIL) ;
+        Assert.assertTrue(realResult, "You didn't create an email!");
     }
 
     @AfterMethod(alwaysRun = true)
