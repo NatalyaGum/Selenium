@@ -7,7 +7,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pageobject_model.page.HomePage;
-import pageobject_model.page.MailBoxPage;
 
 
 public class MailruTest {

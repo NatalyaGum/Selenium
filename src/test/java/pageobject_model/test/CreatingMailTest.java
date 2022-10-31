@@ -9,8 +9,6 @@ import org.testng.annotations.Test;
 import pageobject_model.page.HomePage;
 import pageobject_model.page.MailBoxPage;
 
-import javax.swing.*;
-
 public class CreatingMailTest {
 
     WebDriver driver;
