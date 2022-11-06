@@ -8,12 +8,11 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pageobject_model.page.HomePage;
 
-
 public class MailruTest {
 
     WebDriver driver;
     private static final String LOGIN = "2004nbg";
-    private static final String PASSWORD = "";
+    private static final String PASSWORD = "!";
 
     @BeforeMethod(alwaysRun = true)
     public void browserSetup() {

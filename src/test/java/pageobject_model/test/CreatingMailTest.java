@@ -12,11 +12,10 @@ import pageobject_model.page.MailBoxPage;
 public class CreatingMailTest {
 
     WebDriver driver;
-
     MailBoxPage page;
-    private static final String LOGIN = "2004nbg";
-    private static final String PASSWORD = "";
 
+    private static final String LOGIN = "2004nbg";
+    private static final String PASSWORD ="!";
     private static final String EMAIL = "2004nbg@mail.ru";
 
     @BeforeMethod(alwaysRun = true)
