@@ -1,6 +1,5 @@
 package pageobject_model.page;
 
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -43,19 +42,21 @@ public class MailFrame extends MailBoxPage {
     }
 
     public MailBoxPage mailSave() {
-       // enterSubjectInput.sendKeys(Keys.chord(Keys.CONTROL, "s"));
         saveBtn.click();
         closeMailBtn.click();
         return new MailBoxPage(driver);
     }
+
     public DraftPage sendMail() {
-        if (closeEditDraftBtn!=null) {closeEditDraftBtn.click();}
+        if (closeEditDraftBtn != null) {
+            closeEditDraftBtn.click();
+        }
         new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions.elementToBeClickable(sendBtn));
         sendBtn.click();
         new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions.visibilityOf(mailSentMsg));
-        if (closeSentWindowBtn!=null) {closeSentWindowBtn.click();}
-        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(WAIT_TIMEOUT_SECONDS));
+        if (closeSentWindowBtn != null) {
+            closeSentWindowBtn.click();
+        }
         return new DraftPage(driver);
     }
-
 }

@@ -6,11 +6,17 @@
             <run>
                 <include name="main_test"/>
                 <include name= "mail_create_test"/>
+                <include name= "spam_test"/>
+                <include name= "mail_sent_from_draft_test"/>
+                <include name= "mail_log_out_test"/>
             </run>
         </groups>
         <classes>
-            <class name="pageobject_model.test.MailruTest"></class>
+            <class name="pageobject_model.test.MailruLogInTest"></class>
             <class name="pageobject_model.test.CreatingMailTest"></class>
+            <class name="pageobject_model.test.SendMailFromDraftBoxTest"></class>
+            <class name="pageobject_model.test.CleanSpamTest"></class>
+            <class name="pageobject_model.test.LogOutTest"></class>
         </classes>
     </test>
 </suite>

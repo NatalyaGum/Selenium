@@ -6,9 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 public abstract class AbstractPage {
 
     protected WebDriver driver;
-
     protected abstract AbstractPage openPage();
-
     protected static final int WAIT_TIMEOUT_SECONDS = 10;
     protected  static final int WAIT_TIMEOUT_MINUTES = 1;
 

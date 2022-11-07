@@ -9,14 +9,12 @@ import org.testng.annotations.Test;
 import pageobject_model.page.HomePage;
 import pageobject_model.page.MailBoxPage;
 
-public class CreatingMailTest {
+public class CleanSpamTest {
 
     WebDriver driver;
     MailBoxPage page;
-
     private static final String LOGIN = "2004nbg";
     private static final String PASSWORD = "!";
-    private static final String EMAIL = "2004nbg@mail.ru";
 
     @BeforeMethod(alwaysRun = true)
     public void browserSetup() {
@@ -27,14 +25,14 @@ public class CreatingMailTest {
                 .mailruLogin(LOGIN, PASSWORD);
     }
 
-    @Test(groups = "mail_create_test")
-    public void createMailTest() {
-        boolean realResult = page.writeLetter()
-                .mailCreate(EMAIL)
-                .mailSave()
-                .openDraftPage()
-                .checkMail(EMAIL);
-        Assert.assertTrue(realResult, "You didn't create an email!");
+    @Test(groups = "spam_test")
+    public void logInMailruTest() {
+
+        boolean realResult = page
+                .openSpamPage()
+                .cleanSpam()
+                .checkSpamBoxIsEmpty();
+        Assert.assertTrue(realResult, "You didn't clean spam box!");
     }
 
     @AfterMethod(alwaysRun = true)

@@ -21,7 +21,7 @@ public class HomePage extends AbstractPage {
     @FindBy(xpath = "//input[@name='password']")
     private WebElement passwordInput;
     @FindBy(xpath = "//span[@class='inner-0-2-81 innerTextWrapper-0-2-82']")
-    private WebElement signinBtn;
+    private WebElement signInBtn;
 
     public HomePage(WebDriver driver) {
         super(driver);
@@ -33,8 +33,7 @@ public class HomePage extends AbstractPage {
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(WAIT_TIMEOUT_SECONDS));
         return this;
     }
-
-    public MailBoxPage mailruLogin(String login, String password) throws InterruptedException {
+    public MailBoxPage mailruLogin(String login, String password)  {
         loginBtn.click();
         driver.switchTo().frame(iframe);
         new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions.visibilityOf(loginInput));
@@ -42,8 +41,14 @@ public class HomePage extends AbstractPage {
         enterPasswordBtn.click();
         new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions.visibilityOf(passwordInput));
         passwordInput.sendKeys(password);
-        signinBtn.click();
+        signInBtn.click();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(WAIT_TIMEOUT_SECONDS));
         return new MailBoxPage(driver);
     }
+
+    public boolean checkForLogOut() {
+        return new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions.visibilityOf(loginBtn)).isDisplayed();
+
+    }
+
 }

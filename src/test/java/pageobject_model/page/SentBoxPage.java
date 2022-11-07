@@ -10,21 +10,25 @@ import java.time.Duration;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
-public class SentBoxPage extends AbstractPage{
+public class SentBoxPage extends AbstractPage {
 
     protected SentBoxPage(WebDriver driver) {
         super(driver);
     }
-    private static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("kk:mm");
+
+    private static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("H:mm");
     @FindBy(xpath = "(//div[@class='llc__item llc__item_date'])[1]")
     private WebElement timeOfSent;
 
+    @FindBy(xpath = "//a[@class='nav__item js-shortcut nav__item_active nav__item_shortcut nav__item_expanded_true nav__item_child-level_0' and @href='/sent/']")
+    private WebElement SentBoxPage;
+
     public boolean checkMailIsInSentBox() {
+        new WebDriverWait(driver, Duration.ofMinutes(WAIT_TIMEOUT_MINUTES)).until(ExpectedConditions.visibilityOf(SentBoxPage));
         new WebDriverWait(driver, Duration.ofMinutes(WAIT_TIMEOUT_MINUTES)).until(ExpectedConditions.visibilityOf(timeOfSent));
-        timeOfSent.getText().equals(LocalTime.now().format(FORMATTER));
-        System.out.println(timeOfSent.getText());
-        System.out.println(LocalTime.now());
-        return true;
+        return (timeOfSent.getText().equals(LocalTime.now().format(FORMATTER))
+                | (timeOfSent.getText().equals(LocalTime.now().minusMinutes(1).format(FORMATTER)))
+                | (timeOfSent.getText().equals(LocalTime.now().plusMinutes(1).format(FORMATTER))));
     }
 
     @Override
