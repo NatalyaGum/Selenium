@@ -56,7 +56,6 @@ public class DraftPage extends AbstractPage {
     }
 
     public boolean checkMailIsSent() throws InterruptedException {
-        boolean mailIsSent = false;
         new WebDriverWait(driver, Duration.ofMinutes(WAIT_TIMEOUT_MINUTES)).until(ExpectedConditions.visibilityOf(draftPage));
         return driver.findElements(By.xpath("(//div[@class='llc__item llc__item_date'])[1]")).isEmpty();
     }

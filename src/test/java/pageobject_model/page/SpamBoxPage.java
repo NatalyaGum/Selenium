@@ -23,17 +23,14 @@ public class SpamBoxPage extends AbstractPage {
         try {
             selectAllBtn.click();
             spamPage.sendKeys(Keys.DELETE);
-
         } catch (ElementClickInterceptedException e) {
-            System.out.println("Папка Черновики пуста");
+            System.out.println("Папка Спам пуста");
         }
         return new SpamBoxPage(driver);
     }
 
     public boolean checkSpamBoxIsEmpty() {
-
         new WebDriverWait(driver, Duration.ofMinutes(WAIT_TIMEOUT_MINUTES)).until(ExpectedConditions.visibilityOf(spamPage));
-        System.out.println(driver.findElements(By.xpath("//div[@class='llc__item llc__item_date']")).isEmpty());
         return driver.findElements(By.xpath("//div[@class='llc__item llc__item_date']")).isEmpty();
     }
 
