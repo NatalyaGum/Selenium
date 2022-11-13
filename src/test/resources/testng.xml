@@ -17,6 +17,7 @@
             <class name="pageobject_model.test.SendMailFromDraftBoxTest"></class>
             <class name="pageobject_model.test.CleanSpamTest"></class>
             <class name="pageobject_model.test.LogOutTest"></class>
+            <class name="pageobject_model.test.BaseTest"></class>
         </classes>
     </test>
 </suite>

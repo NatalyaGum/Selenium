@@ -1,6 +1,7 @@
 package pageobject_model.page;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -16,9 +17,9 @@ public class MailBoxPage extends AbstractPage {
     private WebElement writeLetterBtn;
     @FindBy(xpath = "//div[@class='ph-project-promo-close-icon__container svelte-m7oyyo']")
     private WebElement closeMailruPrimary;
-    @FindBy(css = "a[href='/drafts/']")
+    @FindBy(xpath = "//a[@href='/drafts/']")
     private WebElement draftPageBtn;
-    @FindBy(css = "a[href='/spam/']")
+    @FindBy(xpath = "//a[@href='/spam/']")
     private WebElement spamPageBtn;
     @FindBy(xpath = "//div[@data-testid='whiteline-account-exit']")
     private WebElement logOutBtn;
@@ -71,6 +72,12 @@ public class MailBoxPage extends AbstractPage {
         new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions.visibilityOf(logOutBtn));
         logOutBtn.click();
         return new HomePage(driver);
+    }
+
+    public MailBoxPage scrollDown() {
+        JavascriptExecutor jsExec = (JavascriptExecutor) driver;
+        jsExec.executeScript("window.scrollBy(0,300)");
+        return new MailBoxPage(driver);
     }
 
     @Override

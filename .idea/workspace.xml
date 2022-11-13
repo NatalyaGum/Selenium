@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1ca2cc7-4689-4dda-8276-0422522adef2" name="Changes" comment="clean">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/test/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/page/DraftPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/page/DraftPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/page/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/page/MailBoxPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/page/MailBoxPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/page/MailFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/page/MailFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/page/SentBoxPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/page/SentBoxPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/page/SpamBoxPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/page/SpamBoxPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/test/CleanSpamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/test/CleanSpamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/test/CreatingMailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/test/CreatingMailTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/test/LogOutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/test/LogOutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/test/MailruLogInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/test/MailruLogInTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/test/SendMailFromDraftBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/test/SendMailFromDraftBoxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +87,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CleanSpamTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hellowebdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pageobject_model.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pageobject_model.test" />
+      <option name="MAIN_CLASS_NAME" value="pageobject_model.test.CleanSpamTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreatingMailTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hellowebdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pageobject_model.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pageobject_model.test" />
+      <option name="MAIN_CLASS_NAME" value="pageobject_model.test.CreatingMailTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LogOutTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hellowebdriver" />
       <extension name="coverage">
@@ -86,41 +131,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="pageobject_model.test" />
       <option name="MAIN_CLASS_NAME" value="pageobject_model.test.LogOutTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogOutTest.createMailTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="hellowebdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pageobject_model.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pageobject_model.test" />
-      <option name="MAIN_CLASS_NAME" value="pageobject_model.test.LogOutTest" />
-      <option name="METHOD_NAME" value="createMailTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MailruLogInTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="hellowebdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pageobject_model.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pageobject_model.test" />
-      <option name="MAIN_CLASS_NAME" value="pageobject_model.test.MailruLogInTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -148,10 +158,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/data/projects/selenium/src/test/resources/testng.xml" />
-        <item itemvalue="TestNG.LogOutTest" />
-        <item itemvalue="TestNG.LogOutTest.createMailTest" />
         <item itemvalue="TestNG.SendMailFromDraftBoxTest" />
-        <item itemvalue="TestNG.MailruLogInTest" />
+        <item itemvalue="TestNG.LogOutTest" />
+        <item itemvalue="TestNG.CreatingMailTest" />
+        <item itemvalue="TestNG.CleanSpamTest" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667782817879</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="clean">
+      <created>1667783400516</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667783400516</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -27,7 +27,6 @@ public class SentBoxPage extends AbstractPage {
         new WebDriverWait(driver, Duration.ofMinutes(WAIT_TIMEOUT_MINUTES)).until(ExpectedConditions.visibilityOf(SentBoxPage));
         new WebDriverWait(driver, Duration.ofMinutes(WAIT_TIMEOUT_MINUTES)).until(ExpectedConditions.visibilityOf(timeOfSent));
         return (timeOfSent.getText().equals(LocalTime.now().format(FORMATTER))
-                | (timeOfSent.getText().equals(LocalTime.now().minusMinutes(1).format(FORMATTER)))
                 | (timeOfSent.getText().equals(LocalTime.now().plusMinutes(1).format(FORMATTER))));
     }
 

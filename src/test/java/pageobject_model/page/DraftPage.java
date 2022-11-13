@@ -18,7 +18,7 @@ public class DraftPage extends AbstractPage {
     private WebElement bodyOfMail;
     @FindBy(css = "a[href='/sent/']")
     private WebElement sentPageBtn;
-    @FindBy(css = "a[href='/sent/']")
+    @FindBy(css = "a[href='/inbox/']")
     private WebElement inboxPageBtn;
     @FindBy(xpath = "//span[text()='Выделить все']")
     private WebElement selectAllBtn;
@@ -33,7 +33,11 @@ public class DraftPage extends AbstractPage {
         new WebDriverWait(driver, Duration.ofMinutes(WAIT_TIMEOUT_MINUTES)).until(ExpectedConditions.visibilityOf(draftPage));
         return correspondent.getText().equals(text) & subject.getText().equals(text) & bodyOfMail.getText().startsWith(text);
     }
-
+    public DraftPage scrollDown() {
+        JavascriptExecutor jsExec = (JavascriptExecutor) driver;
+        jsExec.executeScript("window.scrollBy(0,500)");
+        return new DraftPage(driver);
+    }
     public MailFrame openDraft() {
         new WebDriverWait(driver, Duration.ofMinutes(WAIT_TIMEOUT_MINUTES)).until(ExpectedConditions.visibilityOf(draftPage));
         new WebDriverWait(driver, Duration.ofMinutes(WAIT_TIMEOUT_MINUTES)).until(ExpectedConditions.visibilityOf(correspondent));
@@ -57,6 +61,7 @@ public class DraftPage extends AbstractPage {
 
     public boolean checkMailIsSent() throws InterruptedException {
         new WebDriverWait(driver, Duration.ofMinutes(WAIT_TIMEOUT_MINUTES)).until(ExpectedConditions.visibilityOf(draftPage));
+        new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions.invisibilityOfAllElements(correspondent));
         return driver.findElements(By.xpath("(//div[@class='llc__item llc__item_date'])[1]")).isEmpty();
     }
 

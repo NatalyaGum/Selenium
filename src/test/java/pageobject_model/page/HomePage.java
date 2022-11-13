@@ -1,5 +1,7 @@
 package pageobject_model.page;
 
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -33,7 +35,28 @@ public class HomePage extends AbstractPage {
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(WAIT_TIMEOUT_SECONDS));
         return this;
     }
-    public MailBoxPage mailruLogin(String login, String password)  {
+
+    public MailBoxPage mailruLoginWithActions(String login, String password) {
+        loginBtn.click();
+        driver.switchTo().frame(iframe);
+        new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions.visibilityOf(loginInput));
+        Actions builder = new Actions(driver);
+        builder.moveToElement(loginInput)
+                .sendKeys(login)
+                .moveByOffset(0, 50)
+                .click()
+                .build().perform();
+        new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions.visibilityOf(passwordInput));
+        builder.moveToElement(passwordInput)
+                .sendKeys(password)
+                .moveByOffset(0, 50)
+                .moveByOffset(-100, 0)
+                .click()
+                .build().perform();
+        return new MailBoxPage(driver);
+    }
+
+    public MailBoxPage mailruLogin(String login, String password) {
         loginBtn.click();
         driver.switchTo().frame(iframe);
         new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions.visibilityOf(loginInput));
@@ -43,6 +66,28 @@ public class HomePage extends AbstractPage {
         passwordInput.sendKeys(password);
         signInBtn.click();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(WAIT_TIMEOUT_SECONDS));
+        return new MailBoxPage(driver);
+    }
+
+    public HomePage scrollDown() {
+        JavascriptExecutor jsExec = (JavascriptExecutor) driver;
+        jsExec.executeScript("window.scrollBy(0,500)");
+        jsExec.executeScript("window.scrollTo(0,document.body.scrollHeight)");
+        return new HomePage(driver);
+    }
+
+    public MailBoxPage mailruLoginWithJsExec(String login, String password) {
+        JavascriptExecutor jsExec = (JavascriptExecutor) driver;
+        jsExec.executeScript("arguments[0].click();", loginBtn);
+        driver.switchTo().frame(iframe);
+        jsExec.executeScript("arguments[0].style.backgroundColor = '" + "yellow" + "'", loginInput);
+        jsExec.executeAsyncScript("window.setTimeout(arguments[arguments.length - 1], 1000);");
+        loginInput.sendKeys(login);
+        jsExec.executeScript("arguments[0].click();", enterPasswordBtn);
+        jsExec.executeAsyncScript("window.setTimeout(arguments[arguments.length - 1], 1000);");
+        jsExec.executeScript("arguments[0].style.backgroundColor = '" + "yellow" + "'", passwordInput);
+        passwordInput.sendKeys(password);
+        jsExec.executeScript("arguments[0].click();", signInBtn);
         return new MailBoxPage(driver);
     }
 

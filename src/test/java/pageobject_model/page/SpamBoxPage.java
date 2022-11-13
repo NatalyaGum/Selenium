@@ -14,6 +14,9 @@ public class SpamBoxPage extends AbstractPage {
     @FindBy(xpath = "//span[text()='Выделить все']")
     private WebElement selectAllBtn;
 
+    @FindBy(xpath = "(//span[@class='ll-crpt'])")
+    private WebElement correspondent;
+
     protected SpamBoxPage(WebDriver driver) {
         super(driver);
     }
@@ -29,8 +32,9 @@ public class SpamBoxPage extends AbstractPage {
         return new SpamBoxPage(driver);
     }
 
-    public boolean checkSpamBoxIsEmpty() {
+    public boolean checkSpamBoxIsEmpty() throws InterruptedException {
         new WebDriverWait(driver, Duration.ofMinutes(WAIT_TIMEOUT_MINUTES)).until(ExpectedConditions.visibilityOf(spamPage));
+        new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions.invisibilityOfAllElements(correspondent));
         return driver.findElements(By.xpath("//div[@class='llc__item llc__item_date']")).isEmpty();
     }
 

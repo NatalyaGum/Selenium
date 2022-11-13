@@ -1,7 +1,9 @@
 package pageobject_model.page;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -58,5 +60,17 @@ public class MailFrame extends MailBoxPage {
             closeSentWindowBtn.click();
         }
         return new DraftPage(driver);
+    }
+
+    public MailFrame mailCreateWithActions(String email) {
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(WAIT_TIMEOUT_SECONDS));
+        new WebDriverWait(driver, Duration.ofMinutes(WAIT_TIMEOUT_MINUTES)).until(ExpectedConditions.visibilityOf(enterToInput));
+        Actions builder = new Actions(driver);
+        builder.sendKeys(email)
+                .sendKeys(Keys.TAB)
+                .sendKeys(email)
+                .sendKeys(enterBodyInput, email)
+                .build().perform();
+        return new MailFrame(driver);
     }
 }
