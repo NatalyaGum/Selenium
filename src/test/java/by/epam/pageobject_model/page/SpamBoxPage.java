@@ -27,12 +27,12 @@ public class SpamBoxPage extends AbstractPage {
             selectAllBtn.click();
             spamPage.sendKeys(Keys.DELETE);
         } catch (ElementClickInterceptedException e) {
-            LOGGER.info("Spam folder is empty.");
+            LOGGER.info("Spam folder is empty");
         }
         return new SpamBoxPage(driver);
     }
 
-    public boolean checkSpamBoxIsEmpty() {
+    public boolean checkSpamBoxIsEmpty()  {
         new WebDriverWait(driver, Duration.ofMinutes(WAIT_TIMEOUT_MINUTES)).until(ExpectedConditions.visibilityOf(spamPage));
         new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions.invisibilityOfAllElements(correspondent));
         return driver.findElements(By.xpath("//div[@class='llc__item llc__item_date']")).isEmpty();
