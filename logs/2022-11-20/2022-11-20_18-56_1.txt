@@ -1,0 +1,14 @@
+2022-11-20 18:56:08 [main] [closeDriver] [55] INFO   - Browser closed.
+2022-11-20 18:56:09 [main] [getDriver] [43] INFO   - Browser Chrome is running.
+2022-11-20 18:56:17 [main] [openPage] [36] INFO   - Login page opened
+2022-11-20 18:56:20 [main] [mailruLogin] [50] INFO   - Login performed
+2022-11-20 18:56:28 [main] [removeDrafts] [76] INFO   - Folder with drafts is empty.
+2022-11-20 18:56:28 [main] [writeLetter] [42] INFO   - Mail was created.
+2022-11-20 18:56:34 [main] [sendMail] [62] INFO   - Mail was sent.
+2022-11-20 18:56:37 [main] [closeDriver] [55] INFO   - Browser closed.
+2022-11-20 18:56:38 [main] [getDriver] [43] INFO   - Browser Chrome is running.
+2022-11-20 18:56:47 [main] [openPage] [36] INFO   - Login page opened
+2022-11-20 18:56:50 [main] [mailruLogin] [50] INFO   - Login performed
+2022-11-20 18:56:56 [main] [cleanSpam] [30] INFO   - Spam folder is empty
+2022-11-20 18:56:56 [main] [closeDriver] [55] INFO   - Browser closed.
+2022-11-20 18:56:58 [main] [getDriver] [43] INFO   - Browser Chrome is running.

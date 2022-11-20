@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ca2cc7-4689-4dda-8276-0422522adef2" name="Changes" comment="fix 20/11">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f1ca2cc7-4689-4dda-8276-0422522adef2" name="Changes" comment="fix screen resolution">
+      <change afterPath="$PROJECT_DIR$/logs/2022-11-20/2022-11-20_18-54_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-11-20/2022-11-20_18-55_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-11-20/2022-11-20_18-56_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-11-20/2022-11-20_18-57_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/driver/DriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/driver/DriverSingleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -230,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668958919034</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fix screen resolution">
+      <created>1668962627519</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668962627519</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -256,7 +267,8 @@
     <MESSAGE value="clean" />
     <MESSAGE value="20/11" />
     <MESSAGE value="fix 20/11" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix 20/11" />
+    <MESSAGE value="fix screen resolution" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix screen resolution" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

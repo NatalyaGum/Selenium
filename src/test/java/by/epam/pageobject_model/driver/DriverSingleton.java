@@ -39,14 +39,14 @@ public class DriverSingleton {
                 default: {
                     ChromeOptions chromeOptions = new ChromeOptions();
                     chromeOptions.addArguments("--no-sandbox");
-                    chromeOptions.addArguments("--no-sandbox");
+                    chromeOptions.addArguments("--window-size=1920,1080");
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver(chromeOptions);
                     LOGGER.info("Browser Chrome is running.");
                     break;
                 }
             }
-            driver.manage().window().setSize(new Dimension(1920,1080));
+            driver.manage().window().maximize();
         }
         return driver;
     }
