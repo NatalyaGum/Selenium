@@ -3,6 +3,7 @@ package by.epam.pageobject_model.driver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -38,13 +39,14 @@ public class DriverSingleton {
                 default: {
                     ChromeOptions chromeOptions = new ChromeOptions();
                     chromeOptions.addArguments("--no-sandbox");
+                    chromeOptions.addArguments("--no-sandbox");
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver(chromeOptions);
                     LOGGER.info("Browser Chrome is running.");
                     break;
                 }
             }
-            driver.manage().window().maximize();
+            driver.manage().window().setSize(new Dimension(1920,1080));
         }
         return driver;
     }
