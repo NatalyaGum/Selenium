@@ -1,4 +1,4 @@
-package pageobject_model.page;
+package by.epam.pageobject_model.page;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -20,7 +20,7 @@ public class SentBoxPage extends AbstractPage {
     @FindBy(xpath = "(//div[@class='llc__item llc__item_date'])[1]")
     private WebElement timeOfSent;
 
-    @FindBy(xpath = "//a[@class='nav__item js-shortcut nav__item_active nav__item_shortcut nav__item_expanded_true nav__item_child-level_0' and @href='/sent/']")
+    @FindBy(xpath = "//a[@class='nav__item js-shortcut nav__item_active nav__item_shortcut nav__item_expanded_true nav__item_child-level_0' and @href='/sent/?']")
     private WebElement SentBoxPage;
 
     public boolean checkMailIsInSentBox() {
@@ -32,6 +32,7 @@ public class SentBoxPage extends AbstractPage {
 
     @Override
     protected AbstractPage openPage() {
+        LOGGER.error("It doesn't work!");
         throw new RuntimeException("It doesn't work!");
     }
 }

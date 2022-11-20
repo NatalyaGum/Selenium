@@ -1,7 +1,7 @@
-package pageobject_model.page;
+package by.epam.pageobject_model.page;
 
+import by.epam.pageobject_model.model.User;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -33,39 +33,21 @@ public class HomePage extends AbstractPage {
     public HomePage openPage() {
         driver.get(HOMEPAGE_URL);
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(WAIT_TIMEOUT_SECONDS));
+        LOGGER.info("Login page opened");
         return this;
     }
 
-    public MailBoxPage mailruLoginWithActions(String login, String password) {
+    public MailBoxPage mailruLogin(User user) {
         loginBtn.click();
         driver.switchTo().frame(iframe);
         new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions.visibilityOf(loginInput));
-        Actions builder = new Actions(driver);
-        builder.moveToElement(loginInput)
-                .sendKeys(login)
-                .moveByOffset(0, 50)
-                .click()
-                .build().perform();
-        new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions.visibilityOf(passwordInput));
-        builder.moveToElement(passwordInput)
-                .sendKeys(password)
-                .moveByOffset(0, 50)
-                .moveByOffset(-100, 0)
-                .click()
-                .build().perform();
-        return new MailBoxPage(driver);
-    }
-
-    public MailBoxPage mailruLogin(String login, String password) {
-        loginBtn.click();
-        driver.switchTo().frame(iframe);
-        new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions.visibilityOf(loginInput));
-        loginInput.sendKeys(login);
+        loginInput.sendKeys(user.getUsername());
         enterPasswordBtn.click();
         new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions.visibilityOf(passwordInput));
-        passwordInput.sendKeys(password);
+        passwordInput.sendKeys(user.getPassword());
         signInBtn.click();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(WAIT_TIMEOUT_SECONDS));
+        LOGGER.info("Login performed");
         return new MailBoxPage(driver);
     }
 
@@ -76,24 +58,7 @@ public class HomePage extends AbstractPage {
         return new HomePage(driver);
     }
 
-    public MailBoxPage mailruLoginWithJsExec(String login, String password) {
-        JavascriptExecutor jsExec = (JavascriptExecutor) driver;
-        jsExec.executeScript("arguments[0].click();", loginBtn);
-        driver.switchTo().frame(iframe);
-        jsExec.executeScript("arguments[0].style.backgroundColor = '" + "yellow" + "'", loginInput);
-        jsExec.executeAsyncScript("window.setTimeout(arguments[arguments.length - 1], 1000);");
-        loginInput.sendKeys(login);
-        jsExec.executeScript("arguments[0].click();", enterPasswordBtn);
-        jsExec.executeAsyncScript("window.setTimeout(arguments[arguments.length - 1], 1000);");
-        jsExec.executeScript("arguments[0].style.backgroundColor = '" + "yellow" + "'", passwordInput);
-        passwordInput.sendKeys(password);
-        jsExec.executeScript("arguments[0].click();", signInBtn);
-        return new MailBoxPage(driver);
-    }
-
     public boolean checkForLogOut() {
         return new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions.visibilityOf(loginBtn)).isDisplayed();
-
     }
-
 }

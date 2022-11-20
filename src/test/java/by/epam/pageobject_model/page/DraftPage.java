@@ -1,4 +1,4 @@
-package pageobject_model.page;
+package by.epam.pageobject_model.page;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class DraftPage extends AbstractPage {
-    @FindBy(xpath = "//a[@class='nav__item js-shortcut nav__item_active nav__item_shortcut nav__item_expanded_true nav__item_child-level_0' and @href='/drafts/']")
+    @FindBy(xpath = "//a[@class='nav__item js-shortcut nav__item_active nav__item_shortcut nav__item_expanded_true nav__item_child-level_0' and @href='/drafts/?']")
     private WebElement draftPage;
     @FindBy(xpath = "(//span[@class='ll-crpt'])[1]")
     private WebElement correspondent;
@@ -16,11 +16,11 @@ public class DraftPage extends AbstractPage {
     private WebElement subject;
     @FindBy(xpath = "(//span[@class='ll-sp__normal'])[1]")
     private WebElement bodyOfMail;
-    @FindBy(css = "a[href='/sent/']")
+    @FindBy(css = "a[href='/sent/?']")
     private WebElement sentPageBtn;
-    @FindBy(css = "a[href='/inbox/']")
+    @FindBy(css = "a[href='/inbox/?']")
     private WebElement inboxPageBtn;
-    @FindBy(xpath = "//span[text()='Выделить все']")
+    @FindBy(xpath = "//span[@class='button2__explanation button2__explanation_ellipsis']")
     private WebElement selectAllBtn;
     @FindBy(xpath = "//span[@class='compose-button__txt']")
     private WebElement writeLetterBtn;
@@ -33,11 +33,13 @@ public class DraftPage extends AbstractPage {
         new WebDriverWait(driver, Duration.ofMinutes(WAIT_TIMEOUT_MINUTES)).until(ExpectedConditions.visibilityOf(draftPage));
         return correspondent.getText().equals(text) & subject.getText().equals(text) & bodyOfMail.getText().startsWith(text);
     }
+
     public DraftPage scrollDown() {
         JavascriptExecutor jsExec = (JavascriptExecutor) driver;
         jsExec.executeScript("window.scrollBy(0,500)");
         return new DraftPage(driver);
     }
+
     public MailFrame openDraft() {
         new WebDriverWait(driver, Duration.ofMinutes(WAIT_TIMEOUT_MINUTES)).until(ExpectedConditions.visibilityOf(draftPage));
         new WebDriverWait(driver, Duration.ofMinutes(WAIT_TIMEOUT_MINUTES)).until(ExpectedConditions.visibilityOf(correspondent));
@@ -59,7 +61,7 @@ public class DraftPage extends AbstractPage {
         return new MailBoxPage(driver);
     }
 
-    public boolean checkMailIsSent() throws InterruptedException {
+    public boolean checkMailIsSent() {
         new WebDriverWait(driver, Duration.ofMinutes(WAIT_TIMEOUT_MINUTES)).until(ExpectedConditions.visibilityOf(draftPage));
         new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions.invisibilityOfAllElements(correspondent));
         return driver.findElements(By.xpath("(//div[@class='llc__item llc__item_date'])[1]")).isEmpty();
@@ -71,13 +73,14 @@ public class DraftPage extends AbstractPage {
             selectAllBtn.click();
             draftPage.sendKeys(Keys.DELETE);
         } catch (ElementClickInterceptedException e) {
-            System.out.println("Папка Черновики пуста");
+            LOGGER.info("Folder with drafts is empty.");
         }
         return new DraftPage(driver);
     }
 
     @Override
     protected AbstractPage openPage() {
+        LOGGER.error("It doesn't work!");
         throw new RuntimeException("It doesn't work!");
     }
 }

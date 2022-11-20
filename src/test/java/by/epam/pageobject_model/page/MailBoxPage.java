@@ -1,7 +1,6 @@
-package pageobject_model.page;
+package by.epam.pageobject_model.page;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -17,9 +16,9 @@ public class MailBoxPage extends AbstractPage {
     private WebElement writeLetterBtn;
     @FindBy(xpath = "//div[@class='ph-project-promo-close-icon__container svelte-m7oyyo']")
     private WebElement closeMailruPrimary;
-    @FindBy(xpath = "//a[@href='/drafts/']")
+    @FindBy(xpath = "//a[@href='/drafts/?']")
     private WebElement draftPageBtn;
-    @FindBy(xpath = "//a[@href='/spam/']")
+    @FindBy(xpath = "//a[@href='/spam/?']")
     private WebElement spamPageBtn;
     @FindBy(xpath = "//div[@data-testid='whiteline-account-exit']")
     private WebElement logOutBtn;
@@ -29,7 +28,7 @@ public class MailBoxPage extends AbstractPage {
     }
 
     public boolean checkForLogin() {
-        new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions.visibilityOf(draftPageBtn));
+        new WebDriverWait(driver, Duration.ofMinutes(WAIT_TIMEOUT_MINUTES)).until(ExpectedConditions.visibilityOf(draftPageBtn));
         boolean isInMailBox = (userNameOnPage != null);
         return isInMailBox;
     }
@@ -40,6 +39,7 @@ public class MailBoxPage extends AbstractPage {
             closeMailruPrimary.click();
         }
         writeLetterBtn.click();
+        LOGGER.info("Mail was created.");
         return new MailFrame(driver);
     }
 
@@ -64,24 +64,20 @@ public class MailBoxPage extends AbstractPage {
     }
 
     public HomePage mailruLogout() {
-        new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions.visibilityOf(spamPageBtn));
+        new WebDriverWait(driver, Duration.ofMinutes(WAIT_TIMEOUT_MINUTES)).until(ExpectedConditions.visibilityOf(spamPageBtn));
         if (!driver.findElements(By.xpath("//div[@class='ph-project-promo-close-icon__container svelte-m7oyyo']")).isEmpty()) {
             closeMailruPrimary.click();
         }
         userNameOnPage.click();
         new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions.visibilityOf(logOutBtn));
         logOutBtn.click();
+        LOGGER.info("Logout performed.");
         return new HomePage(driver);
-    }
-
-    public MailBoxPage scrollDown() {
-        JavascriptExecutor jsExec = (JavascriptExecutor) driver;
-        jsExec.executeScript("window.scrollBy(0,300)");
-        return new MailBoxPage(driver);
     }
 
     @Override
     protected AbstractPage openPage() {
+        LOGGER.error("It doesn't work!");
         throw new RuntimeException("It doesn't work!");
     }
 }

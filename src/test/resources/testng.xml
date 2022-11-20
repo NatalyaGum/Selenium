@@ -12,12 +12,12 @@
             </run>
         </groups>
         <classes>
-            <class name="pageobject_model.test.MailruLogInTest"></class>
-            <class name="pageobject_model.test.CreatingMailTest"></class>
-            <class name="pageobject_model.test.SendMailFromDraftBoxTest"></class>
-            <class name="pageobject_model.test.CleanSpamTest"></class>
-            <class name="pageobject_model.test.LogOutTest"></class>
-            <class name="pageobject_model.test.BaseTest"></class>
+            <class name="by.epam.pageobject_model.test.MailruLogInTest"></class>
+            <class name="by.epam.pageobject_model.test.CreatingMailTest"></class>
+            <class name="by.epam.pageobject_model.test.SendMailFromDraftBoxTest"></class>
+            <class name="by.epam.pageobject_model.test.CleanSpamTest"></class>
+            <class name="by.epam.pageobject_model.test.LogOutTest"></class>
+            <class name="by.epam.pageobject_model.test.BaseTest"></class>
         </classes>
     </test>
 </suite>

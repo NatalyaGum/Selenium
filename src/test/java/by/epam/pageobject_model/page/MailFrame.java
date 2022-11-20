@@ -1,4 +1,4 @@
-package pageobject_model.page;
+package by.epam.pageobject_model.page;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -23,10 +23,9 @@ public class MailFrame extends MailBoxPage {
     private WebElement enterBodyInput;
     @FindBy(xpath = "//button[@class='container--2lPGK type_base--rkphf color_base--hO-yz']")
     private WebElement closeMailBtn;
-    @FindBy(xpath = "//*[text()='Письмо отправлено']")
+    @FindBy(xpath = "//a[@class='layer__link']")
     private WebElement mailSentMsg;
-    @FindBy(xpath = "//span[text()='Сохранить']")
-    private WebElement saveBtn;
+
     @FindBy(xpath = "//button[@data-test-id='send']")
     private WebElement sendBtn;
     @FindBy(xpath = "//span[@class='button2 button2_has-ico button2_has-ico-s button2_actions_close button2_base button2_secondary button2_short button2_hover-support']")
@@ -44,7 +43,8 @@ public class MailFrame extends MailBoxPage {
     }
 
     public MailBoxPage mailSave() {
-        saveBtn.click();
+        Actions builder = new Actions(driver);
+        builder.sendKeys(Keys.chord(Keys.CONTROL + "S"));
         closeMailBtn.click();
         return new MailBoxPage(driver);
     }
@@ -59,6 +59,7 @@ public class MailFrame extends MailBoxPage {
         if (closeSentWindowBtn != null) {
             closeSentWindowBtn.click();
         }
+        LOGGER.info("Mail was sent.");
         return new DraftPage(driver);
     }
 
@@ -71,6 +72,7 @@ public class MailFrame extends MailBoxPage {
                 .sendKeys(email)
                 .sendKeys(enterBodyInput, email)
                 .build().perform();
+        LOGGER.info("Mail was sent.");
         return new MailFrame(driver);
     }
 }

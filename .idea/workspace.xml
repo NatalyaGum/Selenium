@@ -5,19 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1ca2cc7-4689-4dda-8276-0422522adef2" name="Changes" comment="clean">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/test/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/driver/DriverSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/service/TestDataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/service/UserCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/utils/TestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/estng-smoke.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/ta.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testng-all.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/page/DraftPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/page/DraftPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/page/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/page/MailBoxPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/page/MailBoxPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/page/MailFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/page/MailFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/page/SentBoxPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/page/SentBoxPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/page/SpamBoxPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/page/SpamBoxPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/test/CleanSpamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/test/CleanSpamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/test/CreatingMailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/test/CreatingMailTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/test/LogOutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/test/LogOutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/test/MailruLogInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/test/MailruLogInTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/test/SendMailFromDraftBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject_model/test/SendMailFromDraftBoxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/page/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/page/AbstractPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/page/DraftPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/page/DraftPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/page/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/page/MailBoxPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/page/MailBoxPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/page/MailFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/page/MailFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/page/SentBoxPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/page/SentBoxPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/page/SpamBoxPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/page/SpamBoxPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/test/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/test/CleanSpamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/test/CleanSpamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/test/CreatingMailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/test/CreatingMailTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/test/LogOutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/test/LogOutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/test/MailruLogInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/test/MailruLogInTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject_model/test/SendMailFromDraftBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/test/SendMailFromDraftBoxTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +71,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editing.templates"
+    "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -76,62 +89,105 @@
       <recent name="pageobject_model.page" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/data/projects/selenium/src/test/resources/testng.xml">
-    <configuration name="C:/data/projects/selenium/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SendMailFromDraftBoxTest">
+    <configuration name="C:/Users/Natalya_Gumen/AppData/Local/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hellowebdriver" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.epam.pageobject_model.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="$USER_HOME$/AppData/Local/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml" />
+      <option name="PACKAGE_NAME" value="by.epam.pageobject_model.test" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.pageobject_model.test.CreatingMailTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-Dbrowser=&quot;chrome&quot; -Denvironment=&quot;ta&quot;" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CleanSpamTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Natalya_Gumen/AppData/Local/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hellowebdriver" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pageobject_model.test.*" />
+          <option name="PATTERN" value="by.epam.pageobject_model.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pageobject_model.test" />
-      <option name="MAIN_CLASS_NAME" value="pageobject_model.test.CleanSpamTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$USER_HOME$/AppData/Local/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml" />
+      <option name="PACKAGE_NAME" value="by.epam.pageobject_model.test" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.pageobject_model.test.CreatingMailTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-Dbrowser=&quot;chrome&quot; -Denvironment=&quot;ta&quot;" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreatingMailTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Natalya_Gumen/AppData/Local/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hellowebdriver" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pageobject_model.test.*" />
+          <option name="PATTERN" value="by.epam.pageobject_model.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pageobject_model.test" />
-      <option name="MAIN_CLASS_NAME" value="pageobject_model.test.CreatingMailTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$USER_HOME$/AppData/Local/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml" />
+      <option name="PACKAGE_NAME" value="by.epam.pageobject_model.test" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.pageobject_model.test.CreatingMailTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-Dbrowser=&quot;chrome&quot; -Denvironment=&quot;ta&quot;" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogOutTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Natalya_Gumen/AppData/Local/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hellowebdriver" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pageobject_model.test.*" />
+          <option name="PATTERN" value="by.epam.pageobject_model.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pageobject_model.test" />
-      <option name="MAIN_CLASS_NAME" value="pageobject_model.test.LogOutTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$USER_HOME$/AppData/Local/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-Dbrowser=&quot;chrome&quot; -Denvironment=&quot;ta&quot;" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -140,28 +196,46 @@
     </configuration>
     <configuration name="SendMailFromDraftBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hellowebdriver" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pageobject_model.test.*" />
+          <option name="PATTERN" value="by.epam.pageobject_model.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pageobject_model.test" />
-      <option name="MAIN_CLASS_NAME" value="pageobject_model.test.SendMailFromDraftBoxTest" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="by.epam.pageobject_model.test" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.pageobject_model.test.SendMailFromDraftBoxTest" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-Dbrowser=&quot;chrome&quot; -Denvironment=&quot;ta&quot;" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/Users/Natalya_Gumen/AppData/Local/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml" />
+      <item itemvalue="TestNG.C:/Users/Natalya_Gumen/AppData/Local/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml (1)" />
+      <item itemvalue="TestNG.C:/Users/Natalya_Gumen/AppData/Local/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml (2)" />
+      <item itemvalue="TestNG.C:/Users/Natalya_Gumen/AppData/Local/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml (3)" />
+      <item itemvalue="TestNG.SendMailFromDraftBoxTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/data/projects/selenium/src/test/resources/testng.xml" />
         <item itemvalue="TestNG.SendMailFromDraftBoxTest" />
-        <item itemvalue="TestNG.LogOutTest" />
-        <item itemvalue="TestNG.CreatingMailTest" />
-        <item itemvalue="TestNG.CleanSpamTest" />
+        <item itemvalue="TestNG.C:/Users/Natalya_Gumen/AppData/Local/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml (3)" />
+        <item itemvalue="TestNG.C:/Users/Natalya_Gumen/AppData/Local/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml (2)" />
+        <item itemvalue="TestNG.C:/Users/Natalya_Gumen/AppData/Local/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml (1)" />
+        <item itemvalue="TestNG.C:/Users/Natalya_Gumen/AppData/Local/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -276,5 +350,9 @@
     <MESSAGE value="11/6" />
     <MESSAGE value="clean" />
     <option name="LAST_COMMIT_MESSAGE" value="clean" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
