@@ -32,6 +32,7 @@ public class TestListener implements ITestListener {
     }
 
     public void onTestSkipped(ITestResult iTestResult) {
+        LOGGER.info("Skipped: " +iTestResult.getTestName());
 
     }
 
@@ -44,6 +45,8 @@ public class TestListener implements ITestListener {
     }
 
     public void onFinish(ITestContext iTestContext) {
+        LOGGER.info("Failed: " +iTestContext.getFailedTests());
+        LOGGER.info("Success: " +iTestContext.getPassedTests());
 
     }
 

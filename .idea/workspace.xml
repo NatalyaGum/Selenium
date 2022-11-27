@@ -5,175 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1ca2cc7-4689-4dda-8276-0422522adef2" name="Changes" comment="fix screen resolution">
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-23/2022-11-20_20-21_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-23/2022-11-23_21-46_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-23/2022-11-23_21-47_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-23/2022-11-23_21-48_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-23/2022-11-23_21-49_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-23/2022-11-23_21-50_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-23/2022-11-23_21-52_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-23/2022-11-23_21-53_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-23/2022-11-23_21-54_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-23/2022-11-23_21-55_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-23/2022-11-23_21-56_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-23/2022-11-23_21-57_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-23/2022-11-23_22-07_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-23/2022-11-23_22-08_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-23/2022-11-23_22-09_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-23/2022-11-23_22-10_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-23/2022-11-23_22-11_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-23_22-12_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_09-00_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_09-01_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_09-02_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_09-03_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_09-04_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_09-05_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-08_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-09_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-10_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-11_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-12_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-13_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-14_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-15_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-16_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-19_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-20_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-21_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-22_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-25_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-26_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-27_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-28_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-29_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-30_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-31_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-32_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-33_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-34_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-35_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-36_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-37_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-24/2022-11-24_11-38_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-24_11-39_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_14-11_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_14-12_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_14-13_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_14-14_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_14-15_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_14-16_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_14-17_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_14-18_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_14-19_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_14-20_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_14-21_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-17_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-18_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-19_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-20_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-21_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-22_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-23_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-24_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-25_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-26_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-27_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-28_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-29_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-30_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-31_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-32_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-33_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-34_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-36_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-38_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-39_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-40_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-41_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-42_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-43_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-44_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-45_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-46_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-47_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-48_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-50_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-52_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-53_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-54_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-56_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-57_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-58_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_17-59_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_18-00_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_18-01_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_18-02_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_18-03_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_18-06_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_18-08_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_18-11_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_18-12_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_18-13_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_18-15_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_18-16_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_18-17_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_18-18_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_18-19_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_18-20_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_18-21_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_18-22_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_18-23_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_18-24_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_18-25_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_18-27_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_18-28_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_18-47_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_20-53_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_20-54_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_20-55_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_20-56_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_20-57_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_20-58_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_20-59_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_21-00_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_21-01_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_21-02_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_21-34_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_21-35_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_21-36_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_21-39_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_21-40_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_21-41_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_21-42_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_21-44_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_21-45_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_21-46_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_21-47_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_21-48_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_21-49_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_21-50_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_21-51_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_22-23_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_22-24_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_22-25_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_22-26_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_22-27_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_22-28_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_22-32_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_22-33_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-27/2022-11-27_22-34_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/model/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/model/UserBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/driver/DriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/driver/DriverSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/page/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/page/AbstractPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/page/MailFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/page/MailFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/service/UserCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/service/UserCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/test/CleanSpamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/test/CleanSpamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/test/SendMailFromDraftBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/test/SendMailFromDraftBoxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/utils/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/utils/TestListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +73,27 @@
       <recent name="pageobject_model.page" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/data/projects/Selenium9/src/test/resources/testng.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/Natalya_Gumen/AppData/Local/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml (1)">
+    <configuration name="C:/Users/Natalya_Gumen/AppData/Local/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hellowebdriver" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$USER_HOME$/AppData/Local/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-Dbrowser=&quot;chrome&quot; -Denvironment=&quot;ta&quot;" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/Natalya_Gumen/AppData/Local/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hellowebdriver" />
       <shortenClasspath name="NONE" />
@@ -315,6 +168,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Natalya_Gumen/AppData/Local/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml (1)" />
         <item itemvalue="TestNG.C:/data/projects/Selenium9/src/test/resources/testng.xml" />
         <item itemvalue="TestNG.C:/Users/Natalya_Gumen/AppData/Local/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml" />
         <item itemvalue="TestNG.SendMailFromDraftBoxTest" />
@@ -442,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668963817307</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fix screen resolution">
+      <created>1669579819480</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1669579819480</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

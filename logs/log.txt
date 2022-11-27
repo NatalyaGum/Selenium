@@ -1,3 +1,6 @@
-2022-11-27 22:35:01 [main] [mailruLogin] [50] INFO   - Login performed
-2022-11-27 22:35:42 [main] [cleanSpam] [30] INFO   - Spam folder is empty
-2022-11-27 22:35:42 [main] [closeDriver] [58] INFO   - Browser closed.
+2022-11-27 23:32:09 [main] [openPage] [36] INFO   - Login page opened
+2022-11-27 23:32:19 [main] [mailruLogin] [50] INFO   - Login performed
+2022-11-27 23:32:59 [main] [cleanSpam] [30] INFO   - Spam folder is empty
+2022-11-27 23:32:59 [main] [closeDriver] [58] INFO   - Browser closed.
+2022-11-27 23:32:59 [main] [onFinish] [47] INFO   - Failed: [ResultMap map={}]
+2022-11-27 23:32:59 [main] [onFinish] [48] INFO   - Success: [ResultMap map={[TestResult name=spamMailruTest status=SUCCESS method=CleanSpamTest.spamMailruTest()[pri:0, instance:by.epam.pageobject_model.test.CleanSpamTest@56cdfb3b] output={null}]=CleanSpamTest.spamMailruTest()[pri:0, instance:by.epam.pageobject_model.test.CleanSpamTest@56cdfb3b]}]
