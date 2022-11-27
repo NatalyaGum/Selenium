@@ -1,0 +1,3 @@
+2022-11-27 22:35:01 [main] [mailruLogin] [50] INFO   - Login performed
+2022-11-27 22:35:42 [main] [cleanSpam] [30] INFO   - Spam folder is empty
+2022-11-27 22:35:42 [main] [closeDriver] [58] INFO   - Browser closed.
