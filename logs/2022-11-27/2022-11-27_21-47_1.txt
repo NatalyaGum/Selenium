@@ -1,0 +1,2 @@
+2022-11-27 21:47:34 [main] [writeLetter] [42] INFO   - Mail was created.
+2022-11-27 21:47:43 [main] [mailCreateWithActions] [71] INFO   - Mail was sent.

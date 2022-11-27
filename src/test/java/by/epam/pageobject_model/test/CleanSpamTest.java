@@ -20,7 +20,7 @@ public class CleanSpamTest extends BaseTest {
     }
 
     @Test(groups = "spam_test")
-    public void spamMailruTest() throws InterruptedException {
+    public void spamMailruTest()  {
         boolean realResult = page
                 .openSpamPage()
                 .cleanSpam()

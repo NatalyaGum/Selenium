@@ -1,0 +1,4 @@
+2022-11-23 21:55:11 [main] [openPage] [36] INFO   - Login page opened
+2022-11-23 21:55:21 [main] [closeDriver] [60] INFO   - Browser closed.
+2022-11-23 21:55:22 [main] [getDriver] [49] INFO   - Browser Chrome is running.
+2022-11-23 21:55:59 [main] [openPage] [36] INFO   - Login page opened

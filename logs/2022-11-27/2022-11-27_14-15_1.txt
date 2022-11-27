@@ -1,0 +1,2 @@
+2022-11-27 14:15:43 [main] [closeDriver] [60] INFO   - Browser closed.
+2022-11-27 14:15:44 [main] [getDriver] [49] INFO   - Browser Chrome is running.

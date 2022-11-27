@@ -1,0 +1,2 @@
+2022-11-27 21:00:45 [main] [cleanSpam] [30] INFO   - Spam folder is empty
+2022-11-27 21:00:46 [main] [closeDriver] [58] INFO   - Browser closed.

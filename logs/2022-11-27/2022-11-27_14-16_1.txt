@@ -1,0 +1,3 @@
+2022-11-27 14:16:07 [main] [openPage] [36] INFO   - Login page opened
+2022-11-27 14:16:18 [main] [mailruLogin] [50] INFO   - Login performed
+2022-11-27 14:16:53 [main] [writeLetter] [42] INFO   - Mail was created.

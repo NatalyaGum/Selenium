@@ -1,0 +1,2 @@
+2022-11-24 11:16:00 [main] [mailruLogin] [50] INFO   - Login performed
+2022-11-24 11:16:21 [main] [closeDriver] [60] INFO   - Browser closed.

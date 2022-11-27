@@ -1,0 +1,1 @@
+2022-11-27 14:13:30 [main] [closeDriver] [60] INFO   - Browser closed.

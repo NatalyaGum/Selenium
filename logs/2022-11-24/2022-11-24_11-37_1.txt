@@ -1,0 +1,4 @@
+2022-11-24 11:37:03 [main] [mailruLogin] [50] INFO   - Login performed
+2022-11-24 11:37:33 [main] [removeDrafts] [76] INFO   - Folder with drafts is empty.
+2022-11-24 11:37:34 [main] [writeLetter] [42] INFO   - Mail was created.
+2022-11-24 11:37:47 [main] [closeDriver] [60] INFO   - Browser closed.

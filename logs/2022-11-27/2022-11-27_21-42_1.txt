@@ -1,0 +1,2 @@
+2022-11-27 21:42:01 [main] [sendMail] [62] INFO   - Mail was sent.
+2022-11-27 21:42:08 [main] [closeDriver] [58] INFO   - Browser closed.

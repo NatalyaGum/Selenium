@@ -1,0 +1,1 @@
+2022-11-27 17:53:45 [main] [writeLetter] [42] INFO   - Mail was created.

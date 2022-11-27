@@ -1,0 +1,2 @@
+2022-11-27 18:25:19 [main] [mailruLogout] [74] INFO   - Logout performed.
+2022-11-27 18:25:37 [main] [closeDriver] [59] INFO   - Browser closed.

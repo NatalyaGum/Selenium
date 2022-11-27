@@ -1,0 +1,2 @@
+2022-11-27 17:54:00 [main] [mailCreateWithActions] [75] INFO   - Mail was sent.
+2022-11-27 17:54:08 [main] [closeDriver] [60] INFO   - Browser closed.

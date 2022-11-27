@@ -1,0 +1,2 @@
+2022-11-27 20:59:38 [main] [openPage] [36] INFO   - Login page opened
+2022-11-27 20:59:50 [main] [mailruLogin] [50] INFO   - Login performed

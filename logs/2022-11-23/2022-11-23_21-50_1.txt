@@ -1,0 +1,2 @@
+2022-11-23 21:50:01 [main] [openPage] [36] INFO   - Login page opened
+2022-11-23 21:50:15 [main] [closeDriver] [60] INFO   - Browser closed.

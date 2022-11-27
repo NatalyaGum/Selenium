@@ -29,7 +29,7 @@ public class SendMailFromDraftBoxTest extends BaseTest {
     }
 
     @Test(groups = "mail_sent_from_draft_test")
-    public void sentMailTest() throws InterruptedException {
+    public void sentMailTest() {
         boolean mailIsSent = page.openDraft()
                 .sendMail()
                 .checkMailIsSent();

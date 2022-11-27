@@ -1,0 +1,2 @@
+2022-11-24 11:39:11 [main] [writeLetter] [42] INFO   - Mail was created.
+2022-11-24 11:39:21 [main] [closeDriver] [60] INFO   - Browser closed.

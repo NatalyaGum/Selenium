@@ -28,8 +28,7 @@ public class MailFrame extends MailBoxPage {
 
     @FindBy(xpath = "//button[@data-test-id='send']")
     private WebElement sendBtn;
-    @FindBy(xpath = "//span[@class='button2 button2_has-ico button2_has-ico-s button2_actions_close button2_base button2_secondary button2_short button2_hover-support']")
-    private WebElement closeEditDraftBtn;
+
     @FindBy(xpath = "//span[@class='button2 button2_has-ico button2_has-ico-s button2_close button2_pure button2_short button2_hover-support']")
     private WebElement closeSentWindowBtn;
 
@@ -50,9 +49,6 @@ public class MailFrame extends MailBoxPage {
     }
 
     public DraftPage sendMail() {
-        if (closeEditDraftBtn != null) {
-            closeEditDraftBtn.click();
-        }
         new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions.elementToBeClickable(sendBtn));
         sendBtn.click();
         new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions.visibilityOf(mailSentMsg));

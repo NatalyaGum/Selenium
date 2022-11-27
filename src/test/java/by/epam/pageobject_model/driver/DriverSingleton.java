@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 public class DriverSingleton {
 
@@ -22,8 +23,10 @@ public class DriverSingleton {
         if (null == driver) {
             switch (System.getProperty("browser").toLowerCase()) {
                 case "firefox": {
+                    FirefoxOptions firefoxOptions = new FirefoxOptions();
+                    firefoxOptions.addArguments("--no-sandbox");
                     WebDriverManager.firefoxdriver().setup();
-                    driver = new FirefoxDriver();
+                    driver = new FirefoxDriver(firefoxOptions);
                     LOGGER.info("Browser Firefox is running.");
                     break;
                 }
@@ -38,13 +41,13 @@ public class DriverSingleton {
                 default: {
                     ChromeOptions chromeOptions = new ChromeOptions();
                     chromeOptions.addArguments("--no-sandbox");
-                    chromeOptions.addArguments("--window-size=1920,1080");
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver(chromeOptions);
                     LOGGER.info("Browser Chrome is running.");
                     break;
                 }
             }
+
             driver.manage().window().maximize();
         }
         return driver;
