@@ -11,6 +11,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
+
 public class DriverSingleton {
 
     private static final Logger LOGGER = LogManager.getRootLogger();
@@ -57,4 +58,5 @@ public class DriverSingleton {
         driver = null;
         LOGGER.info("Browser closed.");
     }
+
 }

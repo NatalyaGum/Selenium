@@ -1,6 +1,5 @@
-2022-11-27 23:32:09 [main] [openPage] [36] INFO   - Login page opened
-2022-11-27 23:32:19 [main] [mailruLogin] [50] INFO   - Login performed
-2022-11-27 23:32:59 [main] [cleanSpam] [30] INFO   - Spam folder is empty
-2022-11-27 23:32:59 [main] [closeDriver] [58] INFO   - Browser closed.
-2022-11-27 23:32:59 [main] [onFinish] [47] INFO   - Failed: [ResultMap map={}]
-2022-11-27 23:32:59 [main] [onFinish] [48] INFO   - Success: [ResultMap map={[TestResult name=spamMailruTest status=SUCCESS method=CleanSpamTest.spamMailruTest()[pri:0, instance:by.epam.pageobject_model.test.CleanSpamTest@56cdfb3b] output={null}]=CleanSpamTest.spamMailruTest()[pri:0, instance:by.epam.pageobject_model.test.CleanSpamTest@56cdfb3b]}]
+2022-11-28 01:10:48 [main] [writeLetter] [42] INFO   - Mail was created.
+2022-11-28 01:10:57 [main] [mailCreateWithActions] [71] INFO   - Mail was sent.
+2022-11-28 01:10:59 [main] [closeDriver] [61] INFO   - Browser closed.
+2022-11-28 01:10:59 [main] [onFinish] [48] INFO   - Failed: [ResultMap map={}]
+2022-11-28 01:10:59 [main] [onFinish] [49] INFO   - Success: [ResultMap map={[TestResult name=createMailTest status=SUCCESS method=CreatingMailTest.createMailTest()[pri:0, instance:by.epam.pageobject_model.test.CreatingMailTest@383bfa16] output={null}]=CreatingMailTest.createMailTest()[pri:0, instance:by.epam.pageobject_model.test.CreatingMailTest@383bfa16]}]

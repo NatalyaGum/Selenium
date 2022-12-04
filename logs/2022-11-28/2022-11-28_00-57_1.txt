@@ -1,0 +1,2 @@
+2022-11-28 00:57:04 [main] [removeDrafts] [76] INFO   - Folder with drafts is empty.
+2022-11-28 00:57:05 [main] [writeLetter] [42] INFO   - Mail was created.

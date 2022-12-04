@@ -1,0 +1,6 @@
+2022-11-28 00:55:06 [main] [openPage] [36] INFO   - Login page opened
+2022-11-28 00:55:15 [main] [mailruLogin] [50] INFO   - Login performed
+2022-11-28 00:55:47 [main] [writeLetter] [42] INFO   - Mail was created.
+2022-11-28 00:55:56 [main] [mailCreateWithActions] [71] INFO   - Mail was sent.
+2022-11-28 00:55:57 [main] [closeDriver] [61] INFO   - Browser closed.
+2022-11-28 00:55:58 [main] [getDriver] [49] INFO   - Browser Chrome is running.

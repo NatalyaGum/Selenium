@@ -1,0 +1,5 @@
+2022-11-28 00:59:10 [main] [openPage] [36] INFO   - Login page opened
+2022-11-28 00:59:18 [main] [mailruLogin] [50] INFO   - Login performed
+2022-11-28 00:59:50 [main] [cleanSpam] [30] INFO   - Spam folder is empty
+2022-11-28 00:59:51 [main] [closeDriver] [61] INFO   - Browser closed.
+2022-11-28 00:59:51 [main] [getDriver] [49] INFO   - Browser Chrome is running.

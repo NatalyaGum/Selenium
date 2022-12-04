@@ -1,0 +1,3 @@
+2022-11-28 00:58:50 [main] [sendMail] [58] INFO   - Mail was sent.
+2022-11-28 00:58:51 [main] [closeDriver] [61] INFO   - Browser closed.
+2022-11-28 00:58:52 [main] [getDriver] [49] INFO   - Browser Chrome is running.
