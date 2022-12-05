@@ -14,13 +14,13 @@ public class CucumberHook {
     @Before
     public void seleniumDriverSetup() {
         driver = DriverSingleton.getDriver();
-        LOGGER.info("GetDriver");
+        LOGGER.info("Cucumber getDriver");
 
     }
 
     @After
     public void driverTearDown() {
         DriverSingleton.closeDriver();
-        LOGGER.info("CloseDriver");
+        LOGGER.info("Cucumber closeDriver");
     }
 }

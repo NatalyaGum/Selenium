@@ -1,0 +1,2 @@
+2022-12-05 23:20:41 [main] [closeDriver] [59] INFO   - Browser closed.
+2022-12-05 23:20:41 [main] [driverTearDown] [24] INFO   - Cucumber closeDriver
