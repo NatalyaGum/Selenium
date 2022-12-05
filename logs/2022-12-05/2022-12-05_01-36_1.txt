@@ -1,0 +1,2 @@
+2022-12-05 01:36:49 [main] [onFinish] [48] INFO   - Failed: [ResultMap map={}]
+2022-12-05 01:36:49 [main] [onFinish] [49] INFO   - Success: [ResultMap map={}]

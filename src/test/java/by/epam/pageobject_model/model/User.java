@@ -2,7 +2,7 @@ package by.epam.pageobject_model.model;
 
 import java.util.Objects;
 
-public class User implements Builder {
+public class User {
 
     private String username;
     private String password;
@@ -16,7 +16,7 @@ public class User implements Builder {
         return username;
     }
 
-    @Override
+
     public void setUsername(String username) {
         this.username = username;
     }
@@ -25,7 +25,7 @@ public class User implements Builder {
         return password;
     }
 
-    @Override
+
     public void setPassword(String password) {
         this.password = password;
     }
