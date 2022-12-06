@@ -4,45 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ca2cc7-4689-4dda-8276-0422522adef2" name="Changes" comment="cucumber">
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_02-49_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_02-52_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_02-53_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_02-55_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_02-58_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_20-41_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_20-42_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_21-13_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_21-14_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_21-44_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_23-17_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_23-18_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_23-20_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_23-21_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_23-23_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_23-24_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_23-25_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_23-26_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/cucumber/steps/BaseStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/cucumber/steps/MailCreateSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/writeMail.feature" afterDir="false" />
+    <list default="true" id="f1ca2cc7-4689-4dda-8276-0422522adef2" name="Changes" comment="cucumber 1.2.">
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_23-27_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_23-28_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_23-29_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_23-30_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-05_23-31_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_22-35_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/mailru.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_01-45_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_01-45_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_01-49_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_01-49_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_02-15_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_02-15_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_02-16_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_02-16_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_02-27_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_02-27_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_02-28_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_02-28_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_02-29_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_02-29_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_02-34_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_02-34_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_02-42_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_02-42_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_02-43_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_02-43_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_02-45_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_02-45_1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/cucumber/hooks/CucumberHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/cucumber/hooks/CucumberHook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/cucumber/steps/MailruLoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/cucumber/steps/MailruLoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/cucumber/steps/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/cucumber/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/cucumber.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/loginMailru.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/cucumber/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/cucumber/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/cucumber/steps/MailCreateSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/cucumber/steps/MailruSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/page/SpamBoxPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/page/SpamBoxPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/loginMailru.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/loginMailru.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/writeMail.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +86,7 @@
       <recent name="pageobject_model.page" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestRunner">
+  <component name="RunManager" selected="TestNG.TestRunner.runScenario">
     <configuration name="Feature: cucumber" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/cucumber.feature" />
@@ -178,32 +155,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreatingMailTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="hellowebdriver" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.epam.pageobject_model.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
-      <option name="PACKAGE_NAME" value="by.epam.pageobject_model.test" />
-      <option name="MAIN_CLASS_NAME" value="by.epam.pageobject_model.test.CreatingMailTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-Dbrowser=&quot;chrome&quot; -Denvironment=&quot;ta&quot;" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hellowebdriver" />
       <shortenClasspath name="NONE" />
@@ -232,20 +183,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner.runScenario" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hellowebdriver" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.epam.pageobject_model.cucumber.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="by.epam.pageobject_model.cucumber.runner" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.pageobject_model.cucumber.runner.TestRunner" />
+      <option name="METHOD_NAME" value="runScenario" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-Dbrowser=&quot;chrome&quot; -Denvironment=&quot;ta&quot;" />
+      <option name="PARAMETERS" value="3" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Cucumber Java.Feature: writeMail" />
       <item itemvalue="Cucumber Java.Feature: cucumber" />
+      <item itemvalue="TestNG.TestRunner.runScenario" />
       <item itemvalue="TestNG.TestRunner" />
       <item itemvalue="TestNG.C:/Users/Natalya_Gumen/AppData/Local/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml (3)" />
-      <item itemvalue="TestNG.CreatingMailTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestRunner.runScenario" />
         <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="Cucumber Java.Feature: writeMail" />
         <item itemvalue="Cucumber Java.Feature: cucumber" />
         <item itemvalue="TestNG.C:/Users/Natalya_Gumen/AppData/Local/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml (3)" />
-        <item itemvalue="TestNG.CreatingMailTest" />
       </list>
     </recent_temporary>
   </component>
@@ -412,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670198498877</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="cucumber 1.2.">
+      <created>1670272589963</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1670272589963</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -441,7 +428,8 @@
     <MESSAGE value="fix screen resolution" />
     <MESSAGE value="listener updated" />
     <MESSAGE value="cucumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="cucumber" />
+    <MESSAGE value="cucumber 1.2." />
+    <option name="LAST_COMMIT_MESSAGE" value="cucumber 1.2." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

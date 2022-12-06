@@ -17,7 +17,7 @@ public class SpamBoxPage extends AbstractPage {
     @FindBy(xpath = "(//span[@class='ll-crpt'])")
     private WebElement correspondent;
 
-    protected SpamBoxPage(WebDriver driver) {
+    public SpamBoxPage(WebDriver driver) {
         super(driver);
     }
 

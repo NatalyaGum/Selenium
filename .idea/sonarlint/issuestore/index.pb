@@ -319,5 +319,3 @@ V
 &logs/2022-11-27/2022-11-27_22-35_1.txt,8\1\81080f9ef19f0f7ded3b51fc08a34917c5208c95
 V
 &logs/2022-11-27/2022-11-27_23-31_1.txt,3\f\3f39d8de9274abf627e3d9e5642e0800573df811
-y
-Isrc/test/java/by/epam/pageobject_model/test/SendMailFromDraftBoxTest.java,8\9\8949e0788ab490ebfc0fde6f0929de61b9d887c1
