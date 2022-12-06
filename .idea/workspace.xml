@@ -4,22 +4,53 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ca2cc7-4689-4dda-8276-0422522adef2" name="Changes" comment="cucumber 1.2.">
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_23-27_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_23-28_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_23-29_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-05/2022-12-05_23-30_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-05_23-31_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_22-35_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/mailru.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="f1ca2cc7-4689-4dda-8276-0422522adef2" name="Changes" comment="cucumber 1.2.3">
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_22-36_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_22-38_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_22-39_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_22-40_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_22-41_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_22-42_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_22-43_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_22-44_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_22-45_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_22-46_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_22-47_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_22-49_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_22-50_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_23-06_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_23-07_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_23-13_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_23-14_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_23-15_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_23-16_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_23-17_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_23-26_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_23-27_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_23-28_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_23-29_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_23-30_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_23-31_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_23-36_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_23-37_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_23-38_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_23-39_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-06/2022-12-06_23-40_1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/cucumber/hooks/CucumberHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/cucumber/hooks/CucumberHook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/cucumber/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/cucumber/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/cucumber/steps/MailCreateSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/cucumber/steps/MailruSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/page/SpamBoxPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/page/SpamBoxPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/loginMailru.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/loginMailru.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/writeMail.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/test/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/test/CleanSpamTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/test/CreatingMailTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/test/LogOutTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/test/MailruLogInTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/test/SendMailFromDraftBoxTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/utils/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/utils/TestListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng-all.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng-smoke.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -399,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670272589963</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="cucumber 1.2.3">
+      <created>1670358884062</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1670358884062</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -429,7 +467,8 @@
     <MESSAGE value="listener updated" />
     <MESSAGE value="cucumber" />
     <MESSAGE value="cucumber 1.2." />
-    <option name="LAST_COMMIT_MESSAGE" value="cucumber 1.2." />
+    <MESSAGE value="cucumber 1.2.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="cucumber 1.2.3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

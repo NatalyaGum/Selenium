@@ -1,0 +1,12 @@
+2022-12-06 23:30:06 [main] [closeDriver] [59] INFO   - Browser closed.
+2022-12-06 23:30:06 [main] [driverTearDown] [24] INFO   - Cucumber closeDriver
+2022-12-06 23:30:07 [main] [getDriver] [47] INFO   - Browser Chrome is running.
+2022-12-06 23:30:07 [main] [seleniumDriverSetup] [17] INFO   - Cucumber getDriver
+2022-12-06 23:30:20 [main] [openPage] [36] INFO   - Login page opened
+2022-12-06 23:30:26 [main] [mailruLogin] [50] INFO   - Login performed
+2022-12-06 23:30:36 [main] [writeLetter] [42] INFO   - Mail was created.
+2022-12-06 23:30:43 [main] [mailCreateWithActions] [71] INFO   - Mail was sent.
+2022-12-06 23:30:45 [main] [closeDriver] [59] INFO   - Browser closed.
+2022-12-06 23:30:45 [main] [driverTearDown] [24] INFO   - Cucumber closeDriver
+2022-12-06 23:30:46 [main] [getDriver] [47] INFO   - Browser Chrome is running.
+2022-12-06 23:30:46 [main] [seleniumDriverSetup] [17] INFO   - Cucumber getDriver

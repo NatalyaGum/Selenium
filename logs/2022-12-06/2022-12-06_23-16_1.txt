@@ -1,0 +1,9 @@
+2022-12-06 23:16:00 [main] [openPage] [36] INFO   - Login page opened
+2022-12-06 23:16:07 [main] [mailruLogin] [50] INFO   - Login performed
+2022-12-06 23:16:18 [main] [cleanSpam] [30] INFO   - Spam folder is empty
+2022-12-06 23:16:18 [main] [closeDriver] [59] INFO   - Browser closed.
+2022-12-06 23:16:18 [main] [driverTearDown] [24] INFO   - Cucumber closeDriver
+2022-12-06 23:16:19 [main] [getDriver] [47] INFO   - Browser Chrome is running.
+2022-12-06 23:16:19 [main] [seleniumDriverSetup] [17] INFO   - Cucumber getDriver
+2022-12-06 23:16:42 [main] [openPage] [36] INFO   - Login page opened
+2022-12-06 23:16:49 [main] [mailruLogin] [50] INFO   - Login performed
