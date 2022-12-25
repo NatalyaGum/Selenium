@@ -1,0 +1,2 @@
+2022-12-26 01:23:01 [main] [mailruLogin] [50] INFO   - Login performed
+2022-12-26 01:23:59 [main] [writeLetter] [42] INFO   - Mail was created.

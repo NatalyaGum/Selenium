@@ -1,0 +1,16 @@
+2022-12-26 01:13:11 [main] [saveScreenshot] [59] ERROR  - Saved screenshot: 2022-12-26_01-13-11.png
+2022-12-26 01:13:11 [main] [saveScreenshot] [60] INFO   - RP_MESSAGE#FILE#.\target\screenshots\2022-12-26_01-13-11.png
+2022-12-26 01:13:11 [main] [onTestFailure] [32] ERROR  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Выделить в�?е']"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5695b2b5c69d3a48637b599d709b6a9d, findElement {using=xpath, value=//span[text()='Выделить в�?е']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\NATALY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58262}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58262/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5695b2b5c69d3a48637b599d709b6a9d
+2022-12-26 01:13:11 [AsyncHttpClient-1-13] [encode] [131] TRACE handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+2022-12-26 01:13:12 [main] [closeDriver] [55] INFO   - Browser closed.
+2022-12-26 01:13:12 [main] [getDriver] [44] INFO   - Browser Chrome is running.
+2022-12-26 01:13:32 [main] [openPage] [36] INFO   - Login page opened
+2022-12-26 01:13:41 [main] [mailruLogin] [50] INFO   - Login performed

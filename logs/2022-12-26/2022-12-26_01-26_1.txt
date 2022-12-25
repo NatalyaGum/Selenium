@@ -1,0 +1,16 @@
+2022-12-26 01:26:36 [main] [saveScreenshot] [60] ERROR  - Saved screenshot: 2022-12-26_01-26-36.png
+2022-12-26 01:26:36 [main] [saveScreenshot] [61] ERROR  - RP_MESSAGE#FILE#.\target\screenshots\2022-12-26_01-26-36.png
+2022-12-26 01:26:36 [main] [saveScreenshot] [62] ERROR  - .\target\screenshots\2022-12-26_01-26-36.png
+2022-12-26 01:26:36 [main] [saveScreenshot] [64] ERROR  - com.epam.reportportal.message.ReportPortalMessage@2ec0ca83
+2022-12-26 01:26:36 [main] [onTestFailure] [33] ERROR  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Выделить в�?е']"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19c7f863ff7394a0b651842bcb56345d, findElement {using=xpath, value=//span[text()='Выделить в�?е']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\NATALY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59645}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59645/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 19c7f863ff7394a0b651842bcb56345d
+2022-12-26 01:26:36 [AsyncHttpClient-1-13] [encode] [131] TRACE handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+2022-12-26 01:26:36 [main] [closeDriver] [55] INFO   - Browser closed.
+2022-12-26 01:26:37 [main] [getDriver] [44] INFO   - Browser Chrome is running.

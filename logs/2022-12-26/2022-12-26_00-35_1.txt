@@ -1,0 +1,4 @@
+2022-12-26 00:35:05 [main] [mailruLogin] [50] INFO   - Login performed
+2022-12-26 00:35:58 [main] [mailruLogout] [74] INFO   - Logout performed.
+2022-12-26 00:35:58 [AsyncHttpClient-1-16] [encode] [131] TRACE handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+2022-12-26 00:35:58 [main] [closeDriver] [55] INFO   - Browser closed.

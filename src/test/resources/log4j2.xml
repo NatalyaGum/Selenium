@@ -1,45 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration status="warn" monitorInterval="43200">
-    <Properties>
-        <!--Here has made pattern for Appenders format string and VARs for configuration-->
-        <property name="LOG_FOLDER">logs</property>
-        <property name="pattern_cmd">%d{HH:mm:ss} %-5level %logger{1} - %m%n</property>
-        <property name="pattern_file">%d{yyyy-MM-dd HH:mm:ss} [%t] [%M] [%L] %-5level %logger{5} - %m%n</property>
-    </Properties>
-    <Appenders>
-        <!--Appender for printing log in console-->
-        <Console name="ConsoleAppender" target="SYSTEM_OUT">
-            <PatternLayout pattern="${pattern_cmd}"/>
-        </Console>
-        <!--Appender for LOGS in FILES-->
-        <RollingFile name="TxtFile" fileName="${LOG_FOLDER}/log.txt" append="true"
-                     filePattern="${LOG_FOLDER}/${date:yyyy-MM-dd}/%d{yyyy-MM-dd_HH-mm}_%i.txt">
-            <PatternLayout pattern="${pattern_file}"/>
-            <Policies>
-                <TimeBasedTriggeringPolicy/>
-                <SizeBasedTriggeringPolicy size="100 KB"/>
-            </Policies>
-            <DefaultRolloverStrategy max="15"/>
-        </RollingFile>
-        <ReportPortal4j2Appender name="ReportPortalAppender">
-            <PatternLayout pattern="${pattern_file}"/>
-        </ReportPortal4j2Appender>
-    </Appenders>
-    <Loggers>
-        <!--Loger LEVEL-->
-        <Root level="TRACE">
-            <!--ENABLES LOGGERS-->
-            <AppenderRef ref="ConsoleAppender"/>
-            <AppenderRef ref="TxtFile"/>
-            <AppenderRef ref="ReportPortalAppender"/>
-        </Root>
-        <Logger name="com.epam.reportportal" level="INFO" additivity="false">
-            <AppenderRef ref="ConsoleAppender"/>
-            <AppenderRef ref="TxtFile"/>
-            <AppenderRef ref="ReportPortalAppender"/>
-        </Logger>
-        <Logger name="binary_data_logger" level="DEBUG" additivity="false">
-            <AppenderRef ref="ReportPortalAppender"/>
-        </Logger>
-    </Loggers>
-</Configuration>
+<configuration packages="com.epam.ta.reportportal.log4j.appender">
+    <properties>
+        <property name="pattern">[%d{HH:mm:ss}] %-5p (%F:%L) - %m%n</property>
+    </properties>
+    <appenders>
+        <ReportPortalLog4j2Appender name="ReportPortalAppender">
+            <PatternLayout pattern="${pattern}" />
+        </ReportPortalLog4j2Appender>
+    </appenders>
+    <loggers>
+        <root level="all">
+            <appender-ref ref="ReportPortalAppender"/>
+        </root>
+    </loggers>
+</configuration>

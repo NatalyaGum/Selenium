@@ -1,0 +1,8 @@
+2022-12-26 00:53:04 [main] [mailruLogin] [50] INFO   - Login performed
+2022-12-26 00:53:36 [main] [writeLetter] [42] INFO   - Mail was created.
+2022-12-26 00:53:51 [main] [mailCreateWithActions] [75] INFO   - Mail was sent.
+2022-12-26 00:53:55 [main] [saveScreenshot] [61] ERROR  - Saved screenshot: 2022-12-26_00-53-55.png
+2022-12-26 00:53:55 [main] [onTestFailure] [32] ERROR  - You didn't create an email! did not expect to find [true] but found [false]
+2022-12-26 00:53:55 [AsyncHttpClient-1-7] [encode] [131] TRACE handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+2022-12-26 00:53:55 [main] [closeDriver] [55] INFO   - Browser closed.
+2022-12-26 00:53:56 [main] [getDriver] [44] INFO   - Browser Chrome is running.

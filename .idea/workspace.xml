@@ -4,19 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ca2cc7-4689-4dda-8276-0422522adef2" name="Changes" comment="null reporting">
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-25/2022-12-25_18-56_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-25/2022-12-25_22-35_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-25/2022-12-25_22-36_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-25/2022-12-25_22-37_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-25/2022-12-25_22-38_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-25/2022-12-25_22-39_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-12-25/2022-12-25_22-40_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/reportportal.properties" afterDir="false" />
+    <list default="true" id="f1ca2cc7-4689-4dda-8276-0422522adef2" name="Changes" comment="rp">
+      <change afterPath="$PROJECT_DIR$/2022-12-26_00-53-55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022-12-26_00-55-18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022-12-26_00-56-22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-25_22-41_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_00-29_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_00-30_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_00-31_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_00-32_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_00-33_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_00-34_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_00-35_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_00-51_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_00-52_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_00-53_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_00-54_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_00-55_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_00-56_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_00-57_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_01-07_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_01-08_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_01-09_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_01-10_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_01-11_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_01-12_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_01-13_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_01-14_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_01-21_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_01-22_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_01-23_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_01-24_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_01-25_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_01-26_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_01-27_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_01-28_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_01-33_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_01-34_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_01-35_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_01-36_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_01-37_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12-26/2022-12-26_01-38_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reportportal.sync" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/utils/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/utils/TestListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reportportal.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/reportportal.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671998501749</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="rp">
+      <created>1672001573692</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1672001573692</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -342,7 +384,8 @@
     <MESSAGE value="cucumber 1.2." />
     <MESSAGE value="cucumber 1.2.3" />
     <MESSAGE value="null reporting" />
-    <option name="LAST_COMMIT_MESSAGE" value="null reporting" />
+    <MESSAGE value="rp" />
+    <option name="LAST_COMMIT_MESSAGE" value="rp" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

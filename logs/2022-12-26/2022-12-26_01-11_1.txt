@@ -1,0 +1,16 @@
+2022-12-26 01:11:28 [main] [writeLetter] [42] INFO   - Mail was created.
+2022-12-26 01:11:41 [main] [saveScreenshot] [59] ERROR  - Saved screenshot: 2022-12-26_01-11-41.png
+2022-12-26 01:11:41 [main] [saveScreenshot] [60] INFO   - RP_MESSAGE#FILE#.\target\screenshots\2022-12-26_01-11-41.png
+2022-12-26 01:11:41 [main] [onTestFailure] [32] ERROR  - stale element reference: element is not attached to the page document
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b0e321c4f4ca70713a2fc2ac3a92c07f, clickElement {id=0a4190b1-d24e-4b0f-993d-51fd1ec8ec24}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\NATALY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63995}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63995/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b0e321c4f4ca70713a2fc2ac3a92c07f)] -> xpath: //span[@class='button2 button2_has-ico button2_has-ico-s button2_actions_close button2_base button2_secondary button2_short button2_hover-support']]
+Session ID: b0e321c4f4ca70713a2fc2ac3a92c07f
+2022-12-26 01:11:41 [AsyncHttpClient-1-10] [encode] [131] TRACE handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+2022-12-26 01:11:41 [main] [closeDriver] [55] INFO   - Browser closed.
+2022-12-26 01:11:42 [main] [getDriver] [44] INFO   - Browser Chrome is running.

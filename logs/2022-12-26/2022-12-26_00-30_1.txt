@@ -1,0 +1,4 @@
+2022-12-26 00:30:33 [AsyncHttpClient-1-4] [encode] [131] TRACE handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+2022-12-26 00:30:33 [main] [closeDriver] [55] INFO   - Browser closed.
+2022-12-26 00:30:35 [main] [getDriver] [44] INFO   - Browser Chrome is running.
+2022-12-26 00:30:58 [main] [openPage] [36] INFO   - Login page opened

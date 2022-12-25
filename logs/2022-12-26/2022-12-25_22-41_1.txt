@@ -1,0 +1,4 @@
+2022-12-25 22:41:00 [main] [openPage] [36] INFO   - Login page opened
+2022-12-25 22:41:09 [main] [mailruLogin] [50] INFO   - Login performed
+2022-12-25 22:41:56 [main] [mailruLogout] [74] INFO   - Logout performed.
+2022-12-25 22:41:56 [main] [closeDriver] [55] INFO   - Browser closed.

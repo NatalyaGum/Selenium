@@ -1,0 +1,19 @@
+2022-12-26 01:36:04 [main] [openPage] [36] INFO   - Login page opened
+2022-12-26 01:36:15 [main] [mailruLogin] [50] INFO   - Login performed
+2022-12-26 01:36:44 [main] [writeLetter] [42] INFO   - Mail was created.
+2022-12-26 01:36:57 [main] [saveScreenshot] [60] ERROR  - Saved screenshot: 2022-12-26_01-36-57.png
+2022-12-26 01:36:57 [main] [saveScreenshot] [61] ERROR  - RP_MESSAGE#FILE#.\target\screenshots\2022-12-26_01-36-57.png
+2022-12-26 01:36:57 [main] [saveScreenshot] [62] ERROR  - .\target\screenshots\2022-12-26_01-36-57.png
+2022-12-26 01:36:57 [main] [saveScreenshot] [64] ERROR  - com.epam.reportportal.message.ReportPortalMessage@503556cb
+2022-12-26 01:36:57 [main] [onTestFailure] [33] ERROR  - element click intercepted: Element <span data-highlighted-class="button2_highlighted" class="button2 button2_has-ico button2_has-ico-s button2_actions_close button2_base button2_secondary button2_short button2_hover-support">...</span> is not clickable at point (1512, 681). Other element would receive the click: <div id="cmpbox" class="cmpbox cmpstyleroot cmpbox0 cmpboxWelcomeGDPR cmpBoxWelcomeOI" aria-modal="true" role="dialog" aria-labelledby="cmpboxheadline1" data-nosnippet="" style="display: block;" dir="ltr">...</div>
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bcb9c64b75e90544348f9535a5269b80, clickElement {id=31ab4d0c-6265-4a9d-b5f5-64c91755e88b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\NATALY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60503}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60503/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (bcb9c64b75e90544348f9535a5269b80)] -> xpath: //span[@class='button2 button2_has-ico button2_has-ico-s button2_actions_close button2_base button2_secondary button2_short button2_hover-support']]
+Session ID: bcb9c64b75e90544348f9535a5269b80
+2022-12-26 01:36:57 [AsyncHttpClient-1-10] [encode] [131] TRACE handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+2022-12-26 01:36:57 [main] [closeDriver] [55] INFO   - Browser closed.
+2022-12-26 01:36:58 [main] [getDriver] [44] INFO   - Browser Chrome is running.

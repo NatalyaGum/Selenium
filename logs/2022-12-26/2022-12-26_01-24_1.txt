@@ -1,0 +1,6 @@
+2022-12-26 01:24:04 [main] [mailCreateWithActions] [75] INFO   - Mail was sent.
+2022-12-26 01:24:06 [AsyncHttpClient-1-7] [encode] [131] TRACE handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+2022-12-26 01:24:06 [main] [closeDriver] [55] INFO   - Browser closed.
+2022-12-26 01:24:06 [main] [getDriver] [44] INFO   - Browser Chrome is running.
+2022-12-26 01:24:26 [main] [openPage] [36] INFO   - Login page opened
+2022-12-26 01:24:36 [main] [mailruLogin] [50] INFO   - Login performed

@@ -1,4 +1,12 @@
-2022-12-25 22:41:00 [main] [openPage] [36] INFO   - Login page opened
-2022-12-25 22:41:09 [main] [mailruLogin] [50] INFO   - Login performed
-2022-12-25 22:41:56 [main] [mailruLogout] [74] INFO   - Logout performed.
-2022-12-25 22:41:56 [main] [closeDriver] [55] INFO   - Browser closed.
+2022-12-26 01:41:37 [main] [saveScreenshot] [60] ERROR  - Saved screenshot: 2022-12-26_01-41-37.png
+2022-12-26 01:41:37 [main] [saveScreenshot] [61] ERROR  - RP_MESSAGE#FILE#.\target\screenshots\2022-12-26_01-41-37.png
+2022-12-26 01:41:37 [main] [saveScreenshot] [62] ERROR  - .\target\screenshots\2022-12-26_01-41-37.png
+2022-12-26 01:41:37 [main] [saveScreenshot] [64] ERROR  - com.epam.reportportal.message.ReportPortalMessage@120661d2
+2022-12-26 01:41:37 [main] [onTestFailure] [33] ERROR  - Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (f508d1bbc4d57049718d8a7d7684defc)] -> xpath: //a[@href='/spam/?']] (tried for 180 second(s) with 500 milliseconds interval)
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\NATALY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60813}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60813/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f508d1bbc4d57049718d8a7d7684defc
+2022-12-26 01:41:37 [AsyncHttpClient-1-16] [encode] [131] TRACE handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+2022-12-26 01:41:37 [main] [closeDriver] [55] INFO   - Browser closed.
