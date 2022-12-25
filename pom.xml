@@ -12,14 +12,34 @@
   </properties>
   <name>hellowebdriver Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <dependencies>
 
+  <repositories>
+    <repository>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <id>bintray-epam-reportportal</id>
+      <name>bintray</name>
+      <url>http://dl.bintray.com/epam/reportportal</url>
+    </repository>
+  </repositories>
+
+  <dependencies>
       <dependency>
         <groupId>org.testng</groupId>
         <artifactId>testng</artifactId>
         <version>7.0.0-beta1</version>
       </dependency>
-
+    <dependency>
+      <groupId>com.epam.reportportal</groupId>
+      <artifactId>agent-java-testng</artifactId>
+      <version>5.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.epam.reportportal</groupId>
+      <artifactId>logger-java-log4j</artifactId>
+      <version>5.1.3</version>
+    </dependency>
     <dependency>
       <groupId>io.github.bonigarcia</groupId>
       <artifactId>webdrivermanager</artifactId>
@@ -59,6 +79,16 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.9.0</version>
         <configuration>
+          <properties>
+            <property>
+              <name>usedefaultlisteners</name>
+              <value>false</value>
+            </property>
+            <property>
+              <name>listener</name>
+              <value>com.epam.reportportal.testng.ReportPortalTestNGListener</value>
+            </property>
+          </properties>
           <source>17</source>
           <target>17</target>
         </configuration>

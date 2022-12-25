@@ -1,0 +1,4 @@
+2022-12-25 22:37:04 [main] [closeDriver] [55] INFO   - Browser closed.
+2022-12-25 22:37:05 [main] [getDriver] [44] INFO   - Browser Chrome is running.
+2022-12-25 22:37:24 [main] [openPage] [36] INFO   - Login page opened
+2022-12-25 22:37:33 [main] [mailruLogin] [50] INFO   - Login performed

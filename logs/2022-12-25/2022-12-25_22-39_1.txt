@@ -1,0 +1,13 @@
+2022-12-25 22:39:28 [main] [writeLetter] [42] INFO   - Mail was created.
+2022-12-25 22:39:42 [main] [onTestFailure] [32] ERROR  - stale element reference: element is not attached to the page document
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84812832d7ba7e5194b6879ffe69857a, clickElement {id=2164f5b6-e5c5-4d70-bf30-b9307f75456a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\NATALY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51531}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51531/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (84812832d7ba7e5194b6879ffe69857a)] -> xpath: //span[@class='button2 button2_has-ico button2_has-ico-s button2_actions_close button2_base button2_secondary button2_short button2_hover-support']]
+Session ID: 84812832d7ba7e5194b6879ffe69857a
+2022-12-25 22:39:43 [main] [closeDriver] [55] INFO   - Browser closed.
+2022-12-25 22:39:44 [main] [getDriver] [44] INFO   - Browser Chrome is running.

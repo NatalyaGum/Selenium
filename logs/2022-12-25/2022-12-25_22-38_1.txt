@@ -1,0 +1,6 @@
+2022-12-25 22:38:10 [main] [writeLetter] [42] INFO   - Mail was created.
+2022-12-25 22:38:22 [main] [mailCreateWithActions] [75] INFO   - Mail was sent.
+2022-12-25 22:38:24 [main] [closeDriver] [55] INFO   - Browser closed.
+2022-12-25 22:38:25 [main] [getDriver] [44] INFO   - Browser Chrome is running.
+2022-12-25 22:38:44 [main] [openPage] [36] INFO   - Login page opened
+2022-12-25 22:38:52 [main] [mailruLogin] [50] INFO   - Login performed

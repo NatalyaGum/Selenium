@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration status="error" monitorInterval="43200">
+<Configuration status="warn" monitorInterval="43200">
     <Properties>
         <!--Here has made pattern for Appenders format string and VARs for configuration-->
         <property name="LOG_FOLDER">logs</property>
@@ -8,7 +8,7 @@
     </Properties>
     <Appenders>
         <!--Appender for printing log in console-->
-        <Console name="STDOUT" target="SYSTEM_OUT">
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
             <PatternLayout pattern="${pattern_cmd}"/>
         </Console>
         <!--Appender for LOGS in FILES-->
@@ -21,14 +21,25 @@
             </Policies>
             <DefaultRolloverStrategy max="15"/>
         </RollingFile>
-
+        <ReportPortal4j2Appender name="ReportPortalAppender">
+            <PatternLayout pattern="${pattern_file}"/>
+        </ReportPortal4j2Appender>
     </Appenders>
     <Loggers>
         <!--Loger LEVEL-->
         <Root level="TRACE">
             <!--ENABLES LOGGERS-->
-            <AppenderRef ref="STDOUT" level="debug"/>
-            <AppenderRef ref="TxtFile" level="debug"/>
+            <AppenderRef ref="ConsoleAppender"/>
+            <AppenderRef ref="TxtFile"/>
+            <AppenderRef ref="ReportPortalAppender"/>
         </Root>
+        <Logger name="com.epam.reportportal" level="INFO" additivity="false">
+            <AppenderRef ref="ConsoleAppender"/>
+            <AppenderRef ref="TxtFile"/>
+            <AppenderRef ref="ReportPortalAppender"/>
+        </Logger>
+        <Logger name="binary_data_logger" level="DEBUG" additivity="false">
+            <AppenderRef ref="ReportPortalAppender"/>
+        </Logger>
     </Loggers>
 </Configuration>
