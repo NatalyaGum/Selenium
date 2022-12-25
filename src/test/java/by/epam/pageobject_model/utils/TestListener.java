@@ -29,6 +29,7 @@ public class TestListener implements ITestListener {
 
     public void onTestFailure(ITestResult iTestResult) {
         saveScreenshot();
+        LOGGER.error(iTestResult.getThrowable().getMessage());
     }
 
     public void onTestSkipped(ITestResult iTestResult) {
@@ -48,16 +49,16 @@ public class TestListener implements ITestListener {
     }
 
     private void saveScreenshot() {
-        File screenCapture = ((TakesScreenshot) DriverSingleton
+        try { File screenCapture = ((TakesScreenshot) DriverSingleton
                 .getDriver())
                 .getScreenshotAs(OutputType.FILE);
-        try {
             FileUtils.copyFile(screenCapture, new File(
                     ".//target/screenshots/"
                             + getCurrentTimeAsString() +
                             ".png"));
-        } catch (IOException e) {
-            LOGGER.error("Failed to save screenshot: " + e.getLocalizedMessage());
+
+        } catch (Exception e) {
+            LOGGER.error("Failed to save screenshot: " + e.getMessage());
         }
     }
 

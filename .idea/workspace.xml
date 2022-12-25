@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ca2cc7-4689-4dda-8276-0422522adef2" name="Changes" comment="fix screen resolution">
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-20/2022-11-20_18-54_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-20/2022-11-20_18-55_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-20/2022-11-20_18-56_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2022-11-20/2022-11-20_18-57_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/driver/DriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/driver/DriverSingleton.java" afterDir="false" />
+    <list default="true" id="f1ca2cc7-4689-4dda-8276-0422522adef2" name="Changes" comment="clean cucumber">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/page/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/page/AbstractPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/service/TestDataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/service/TestDataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/service/UserCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/service/UserCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/utils/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/pageobject_model/utils/TestListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,13 +31,17 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="withDriverManager" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2Gdn3qjYsPyrkskGpAABMjdN1tQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -51,11 +58,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_opened_file_path": "C:/data/projects/Selenium9/src/test/resources",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "C:/data/projects/Selenium9",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "File.Encoding"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -66,6 +73,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\data\projects\hellowebdriver\hellowebdriver\.idea" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="by.epam.pageobject_model.model" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -74,7 +84,7 @@
       <recent name="pageobject_model.page" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SendMailFromDraftBoxTest">
+  <component name="RunManager">
     <configuration name="C:/data/projects/Selenium9/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hellowebdriver" />
       <shortenClasspath name="NONE" />
@@ -95,41 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SendMailFromDraftBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="hellowebdriver" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.epam.pageobject_model.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="by.epam.pageobject_model.test" />
-      <option name="MAIN_CLASS_NAME" value="by.epam.pageobject_model.test.SendMailFromDraftBoxTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-Dbrowser=&quot;chrome&quot; -Denvironment=&quot;ta&quot;" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="TestNG.SendMailFromDraftBoxTest" />
-      <item itemvalue="TestNG.C:/data/projects/Selenium9/src/test/resources/testng.xml" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SendMailFromDraftBoxTest" />
         <item itemvalue="TestNG.C:/data/projects/Selenium9/src/test/resources/testng.xml" />
       </list>
     </recent_temporary>
@@ -241,7 +218,77 @@
       <option name="project" value="LOCAL" />
       <updated>1668962627519</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fix screen resolution">
+      <created>1668963743480</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668963743480</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix screen resolution">
+      <created>1668963817307</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1668963817307</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fix screen resolution">
+      <created>1669579819480</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1669579819480</updated>
+    </task>
+    <task id="LOCAL-00018" summary="listener updated">
+      <created>1669581307568</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1669581307568</updated>
+    </task>
+    <task id="LOCAL-00019" summary="listener updated">
+      <created>1669581430268</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1669581430268</updated>
+    </task>
+    <task id="LOCAL-00020" summary="cucumber">
+      <created>1670184782506</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1670184782506</updated>
+    </task>
+    <task id="LOCAL-00021" summary="cucumber">
+      <created>1670185944150</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1670185944150</updated>
+    </task>
+    <task id="LOCAL-00022" summary="cucumber">
+      <created>1670198498877</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1670198498877</updated>
+    </task>
+    <task id="LOCAL-00023" summary="cucumber 1.2.">
+      <created>1670272589963</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1670272589963</updated>
+    </task>
+    <task id="LOCAL-00024" summary="cucumber 1.2.3">
+      <created>1670358884062</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1670358884062</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,7 +296,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="withDriverManager" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -268,7 +327,11 @@
     <MESSAGE value="20/11" />
     <MESSAGE value="fix 20/11" />
     <MESSAGE value="fix screen resolution" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix screen resolution" />
+    <MESSAGE value="listener updated" />
+    <MESSAGE value="cucumber" />
+    <MESSAGE value="cucumber 1.2." />
+    <MESSAGE value="cucumber 1.2.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="cucumber 1.2.3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
